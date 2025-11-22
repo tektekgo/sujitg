@@ -11,11 +11,12 @@ export const Hero = () => {
         <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 max-w-7xl mx-auto">
           <div className="flex-shrink-0 animate-scale-in">
             <div className="relative">
-              <div className="absolute -inset-4 bg-primary/20 rounded-full blur-2xl"></div>
+              <div className="absolute -inset-8 bg-primary/30 rounded-full blur-3xl animate-pulse" style={{ animationDuration: '3s' }}></div>
+              <div className="absolute -inset-4 bg-accent/20 rounded-full blur-2xl"></div>
               <img 
                 src={headshot} 
                 alt="Sujit Gangadharan" 
-                className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-primary-foreground shadow-primary"
+                className="relative w-64 h-64 lg:w-80 lg:h-80 rounded-full object-cover border-4 border-primary shadow-glow"
               />
             </div>
           </div>
@@ -37,7 +38,7 @@ export const Hero = () => {
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-6">
               <Button 
                 size="lg"
-                className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 shadow-lg hover:shadow-xl transition-all duration-300"
+                className="bg-primary text-primary-foreground hover:bg-primary-dark shadow-lg hover:shadow-primary transition-all duration-300"
                 asChild
               >
                 <a href="/resume/SujitGangadharan.pdf" download>
@@ -49,7 +50,7 @@ export const Hero = () => {
               <Button 
                 size="lg"
                 variant="outline"
-                className="bg-primary-foreground/10 text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/20"
+                className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary"
                 asChild
               >
                 <a href="https://www.linkedin.com/in/sujitg/" target="_blank" rel="noopener noreferrer">
@@ -61,7 +62,7 @@ export const Hero = () => {
               <Button 
                 size="lg"
                 variant="outline"
-                className="bg-primary-foreground/10 text-primary-foreground border-primary-foreground/30 hover:bg-primary-foreground/20"
+                className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary"
                 asChild
               >
                 <a href="mailto:gsujit@gmail.com">
@@ -75,8 +76,8 @@ export const Hero = () => {
       </div>
       
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-        <div className="w-6 h-10 border-2 border-primary-foreground/50 rounded-full flex items-start justify-center p-2">
-          <div className="w-1.5 h-3 bg-primary-foreground/50 rounded-full"></div>
+        <div className="w-6 h-10 border-2 border-primary/50 rounded-full flex items-start justify-center p-2">
+          <div className="w-1.5 h-3 bg-primary/50 rounded-full"></div>
         </div>
       </div>
     </section>

@@ -31,7 +31,8 @@ const engagements = [
 export const Speaking = () => {
   return (
     <section className="py-24 bg-background relative overflow-hidden" id="speaking">
-      <div className="absolute inset-0 bg-gradient-to-b from-secondary to-background opacity-50"></div>
+      <div className="absolute inset-0 bg-gradient-to-b from-secondary to-background"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik00MCAxMGwxMCAyMC0xMCAyMC0xMC0yMHoiIHN0cm9rZT0iIzMzNjY5OSIgc3Ryb2tlLW9wYWNpdHk9Ii4wMyIvPjwvZz48L3N2Zz4=')] opacity-20"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
