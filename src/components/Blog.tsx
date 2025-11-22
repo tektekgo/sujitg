@@ -55,8 +55,10 @@ const categories = ["All", "AI", "Automation", "Cloud", "Leadership", "Innovatio
 
 export const Blog = () => {
   return (
-    <section className="py-24 bg-background" id="blog">
-      <div className="container mx-auto px-6">
+    <section className="py-24 bg-background relative overflow-hidden" id="blog">
+      <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 to-background"></div>
+      <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IHg9IjIwIiB5PSIyMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBzdHJva2U9IiMzMzY2OTkiIHN0cm9rZS1vcGFjaXR5PSIuMDMiLz48L2c+PC9zdmc+')] opacity-20"></div>
+      <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Insights & <span className="text-gradient">Articles</span>
