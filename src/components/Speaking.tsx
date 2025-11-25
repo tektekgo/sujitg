@@ -4,7 +4,6 @@ import { Mic, Calendar, MapPin, Award, ExternalLink, Download } from "lucide-rea
 import speakingHero from "@/assets/speaking-hero.jpg";
 import gsdcCertificate from "@/assets/gsdc-certificate.png";
 import gsdcBadge from "@/assets/gsdc-advisor-badge.png";
-import autocon4Promo from "@/assets/autocon4-promo.png";
 
 const engagements = [
   {
@@ -24,7 +23,6 @@ const engagements = [
     date: "November 2025",
     location: "Network Automation Forum",
     featured: true,
-    image: autocon4Promo,
     achievements: ["66% efficiency improvement", "3,500 hours saved"],
     links: [
       { 
@@ -98,16 +96,6 @@ export const Speaking = () => {
                     <Mic className="h-3 w-3 mr-1" />
                     Featured
                   </Badge>
-                )}
-                
-                {engagement.image && (
-                  <div className="mb-4 -mx-6 -mt-6">
-                    <img 
-                      src={engagement.image} 
-                      alt={`${engagement.event} promotion`}
-                      className="w-full h-48 object-cover rounded-t-lg"
-                    />
-                  </div>
                 )}
                 
                 <h3 className="text-xl font-bold mb-2 text-card-foreground group-hover:text-primary transition-colors">
