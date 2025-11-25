@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import sgLogo from "@/assets/sg-logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
@@ -36,9 +37,13 @@ export const Navigation = () => {
         <div className="flex items-center justify-between h-16 lg:h-20">
           <a 
             href="#home" 
-            className="text-2xl font-bold text-primary hover:text-primary-dark transition-colors"
+            className="flex items-center hover:opacity-80 transition-opacity"
           >
-            SG
+            <img 
+              src={sgLogo} 
+              alt="SG Logo" 
+              className="h-10 w-10 lg:h-12 lg:w-12"
+            />
           </a>
 
           {/* Desktop Navigation */}
