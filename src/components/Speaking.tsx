@@ -1,9 +1,10 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mic, Calendar, MapPin, Award } from "lucide-react";
+import { Mic, Calendar, MapPin, Award, ExternalLink, Download } from "lucide-react";
 import speakingHero from "@/assets/speaking-hero.jpg";
 import gsdcCertificate from "@/assets/gsdc-certificate.png";
 import gsdcBadge from "@/assets/gsdc-advisor-badge.png";
+import autocon4Promo from "@/assets/autocon4-promo.png";
 
 const engagements = [
   {
@@ -17,12 +18,24 @@ const engagements = [
     badge: gsdcBadge
   },
   {
-    event: "Autocon 4",
-    title: "Keynote Speaker",
-    topic: "AI-Powered Automation in Enterprise Infrastructure",
-    date: "2024",
-    location: "National Conference",
-    featured: true
+    event: "Autocon 4 - Leadership Track",
+    title: "Case Study Presentation",
+    topic: "From Vision to Reality: Building an Enterprise Automation Platform in Banking",
+    date: "November 2025",
+    location: "Network Automation Forum",
+    featured: true,
+    image: autocon4Promo,
+    achievements: ["66% efficiency improvement", "3,500 hours saved"],
+    links: [
+      { 
+        label: "PacketPushers Review", 
+        url: "https://www.linkedin.com/posts/andrewconrymurray_autocon4-activity-7397408153874845696-d2xr"
+      },
+      {
+        label: "Download Presentation",
+        url: "/presentations/VisionToReality_Sujit_Final2.pptx"
+      }
+    ]
   },
   {
     event: "DevOps Summit",
@@ -87,6 +100,16 @@ export const Speaking = () => {
                   </Badge>
                 )}
                 
+                {engagement.image && (
+                  <div className="mb-4 -mx-6 -mt-6">
+                    <img 
+                      src={engagement.image} 
+                      alt={`${engagement.event} promotion`}
+                      className="w-full h-48 object-cover rounded-t-lg"
+                    />
+                  </div>
+                )}
+                
                 <h3 className="text-xl font-bold mb-2 text-card-foreground group-hover:text-primary transition-colors">
                   {engagement.event}
                 </h3>
@@ -98,6 +121,17 @@ export const Speaking = () => {
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {engagement.topic}
                 </p>
+                
+                {engagement.achievements && (
+                  <div className="mb-4 space-y-1">
+                    {engagement.achievements.map((achievement, i) => (
+                      <div key={i} className="flex items-center gap-2 text-sm text-foreground">
+                        <div className="h-1.5 w-1.5 rounded-full bg-primary"></div>
+                        <span>{achievement}</span>
+                      </div>
+                    ))}
+                  </div>
+                )}
                 
                 {engagement.certificate && engagement.badge && (
                   <div className="flex gap-3 mb-4">
@@ -116,6 +150,27 @@ export const Speaking = () => {
                         className="h-16 w-16 object-contain rounded-lg hover:scale-110 transition-transform"
                       />
                     </div>
+                  </div>
+                )}
+                
+                {engagement.links && (
+                  <div className="mb-4 space-y-2">
+                    {engagement.links.map((link, i) => (
+                      <a 
+                        key={i}
+                        href={link.url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+                      >
+                        {link.label.includes("Download") ? (
+                          <Download className="h-4 w-4" />
+                        ) : (
+                          <ExternalLink className="h-4 w-4" />
+                        )}
+                        {link.label}
+                      </a>
+                    ))}
                   </div>
                 )}
                 
