@@ -77,8 +77,8 @@ export const Speaking = () => {
             <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent"></div>
             <div className="absolute bottom-0 left-0 right-0 p-8">
               <Badge className="mb-3 bg-primary text-primary-foreground">Featured</Badge>
-              <h3 className="text-3xl font-bold text-foreground mb-2">Autocon 4 Keynote Speaker</h3>
-              <p className="text-lg text-foreground/80">AI-Powered Automation in Enterprise Infrastructure</p>
+              <h3 className="text-3xl font-bold text-foreground mb-2">Autocon 4 - Leadership Track</h3>
+              <p className="text-lg text-foreground/80">From Vision to Reality: Building an Enterprise Automation Platform in Banking</p>
             </div>
           </div>
         </div>
