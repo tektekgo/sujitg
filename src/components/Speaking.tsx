@@ -1,9 +1,21 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mic, Calendar, MapPin } from "lucide-react";
+import { Mic, Calendar, MapPin, Award } from "lucide-react";
 import speakingHero from "@/assets/speaking-hero.jpg";
+import gsdcCertificate from "@/assets/gsdc-certificate.png";
+import gsdcBadge from "@/assets/gsdc-advisor-badge.png";
 
 const engagements = [
+  {
+    event: "GSDC Global AI Tools Challenge 2025",
+    title: "Keynote Speaker & Knowledge Advisor",
+    topic: "Data & Analytics - Turning Spreadsheets into Dashboards with AI in Seconds",
+    date: "October 2025",
+    location: "Global Virtual Event",
+    featured: true,
+    certificate: gsdcCertificate,
+    badge: gsdcBadge
+  },
   {
     event: "Autocon 4",
     title: "Keynote Speaker",
@@ -86,6 +98,26 @@ export const Speaking = () => {
                 <p className="text-muted-foreground mb-4 leading-relaxed">
                   {engagement.topic}
                 </p>
+                
+                {engagement.certificate && engagement.badge && (
+                  <div className="flex gap-3 mb-4">
+                    <div className="group/cert relative cursor-pointer">
+                      <img 
+                        src={engagement.certificate} 
+                        alt="Speaker Certificate"
+                        className="h-16 w-16 object-cover rounded-lg shadow-sm border border-border hover:shadow-glow transition-all"
+                      />
+                      <Award className="absolute -top-1 -right-1 h-5 w-5 text-primary" />
+                    </div>
+                    <div className="group/badge relative cursor-pointer">
+                      <img 
+                        src={engagement.badge} 
+                        alt="Knowledge Advisor Badge"
+                        className="h-16 w-16 object-contain rounded-lg hover:scale-110 transition-transform"
+                      />
+                    </div>
+                  </div>
+                )}
                 
                 <div className="flex items-center gap-4 text-sm text-muted-foreground">
                   <div className="flex items-center gap-1">
