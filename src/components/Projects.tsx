@@ -41,6 +41,7 @@ const projects: Project[] = [
     icon: Smartphone,
     technologies: ["Mobile", "Finance", "Social"],
     status: "Soon on Android & iOS App Stores",
+    github: "https://github.com/tektekgo/splitly",
   },
   {
     title: "Dev Workflow Generator",
@@ -48,6 +49,7 @@ const projects: Project[] = [
     category: "Dev Tools",
     icon: Wrench,
     technologies: ["Developer Tools", "Productivity", "Automation"],
+    github: "https://github.com/jisujit/dev-workflow-generator",
   },
   {
     title: "Retirement Ready Vault",
