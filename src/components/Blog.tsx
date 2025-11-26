@@ -5,6 +5,14 @@ import { ArrowRight, Clock } from "lucide-react";
 
 const blogPosts = [
   {
+    category: "Automation",
+    title: "The Future of DevOps Engineering: A Confluence of Infrastructure, Automation, AI, and Quantum",
+    excerpt: "Exploring how the convergence of infrastructure automation, artificial intelligence, and quantum computing is reshaping the DevOps landscape.",
+    date: "2024",
+    readTime: "8 min read",
+    link: "https://medium.com/@gsujit/the-future-of-devops-engineering-a-confluence-of-infrastructure-automation-ai-and-quantum-89ff08feb0db"
+  },
+  {
     category: "AI",
     title: "Building ExcelGPT: AI-Powered Spreadsheet Intelligence",
     excerpt: "How custom GPT models are transforming enterprise data analysis and decision-making processes.",
