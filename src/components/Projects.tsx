@@ -59,6 +59,14 @@ const projects: Project[] = [
     technologies: ["Security", "Finance", "Planning"],
     github: "https://github.com/tektekgo/Retirement-Ready-Vault",
   },
+  {
+    title: "Automation Analytics Dashboard",
+    description: "A comprehensive analytics dashboard for tracking and visualizing automation metrics, performance indicators, and operational insights across enterprise systems.",
+    category: "Web Apps",
+    icon: Globe,
+    technologies: ["Analytics", "Automation", "Visualization"],
+    github: "https://github.com/tektekgo/automation-analytics-dashboard",
+  },
 ];
 
 const categories: ProjectCategory[] = ["All", "Web Apps", "CLI Tools", "Mobile Apps", "Dev Tools"];
