@@ -42,7 +42,7 @@ export const Navigation = () => {
             <img 
               src={sgLogo} 
               alt="SG Logo" 
-              className="h-10 w-10 lg:h-12 lg:w-12"
+              className="h-14 w-14 lg:h-16 lg:w-16"
             />
           </a>
 
