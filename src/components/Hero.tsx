@@ -26,7 +26,7 @@ export const Hero = () => {
               Sujit Gangadharan
             </h1>
             <h2 className="text-2xl lg:text-3xl font-semibold text-primary-foreground/90">
-              CIO Candidate | Enterprise Technology Executive
+              Enterprise Technology Executive
             </h2>
             <p className="text-lg lg:text-xl text-primary-foreground/80 max-w-3xl leading-relaxed">
               Visionary, business-driven IT executive with 30+ years of experience leading enterprise 
