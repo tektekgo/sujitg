@@ -27,6 +27,15 @@ const projects: Project[] = [
     link: "https://www.ai-focus.org",
   },
   {
+    title: "Miles-Focus",
+    description: "A powerful mileage tracking app for IRS tax deductions. Import Google Timeline data, apply official IRS rates, filter by purpose, and export IRS-ready Excel/PDF reports.",
+    category: "Web Apps",
+    icon: Globe,
+    technologies: ["React", "TypeScript", "Tax Tools"],
+    link: "https://miles-focus.vercel.app",
+    github: "https://github.com/tektekgo/miles-focus",
+  },
+  {
     title: "Sherlock-logs",
     description: "A powerful Python-based CLI tool that helps developers, DevOps engineers, and sysadmins analyze log files quickly and efficiently with styled output, summaries, and export options.",
     category: "CLI Tools",
