@@ -1,4 +1,5 @@
 import { Linkedin, Mail, ExternalLink } from "lucide-react";
+import { getVersionString } from "@/config/version";
 
 export const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -52,7 +53,7 @@ export const Footer = () => {
             Jacksonville, FL | 904-859-1589 | gsujit@gmail.com
           </p>
           <p className="text-xs text-muted-foreground/50 mt-4">
-            v1.0.0 · Last updated Dec 1, 2025
+            {getVersionString()}
           </p>
         </div>
       </div>
