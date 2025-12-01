@@ -51,6 +51,9 @@ export const Footer = () => {
           <p className="text-sm">
             Jacksonville, FL | 904-859-1589 | gsujit@gmail.com
           </p>
+          <p className="text-xs text-muted-foreground/50 mt-4">
+            v1.0.0 · Last updated Dec 1, 2025
+          </p>
         </div>
       </div>
     </footer>
