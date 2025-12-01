@@ -1,4 +1,4 @@
-# robots.txt for sujitg.com
+# robots.txt for www.sujitg.com
 
 User-agent: Googlebot
 Allow: /
@@ -19,4 +19,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://sujitg.com/sitemap.xml
+Sitemap: https://www.sujitg.com/sitemap.xml
