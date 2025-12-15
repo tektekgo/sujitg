@@ -73,17 +73,60 @@ export const Speaking = () => {
         </div>
 
         <div className="max-w-6xl mx-auto mb-12">
-          <div className="relative rounded-2xl overflow-hidden shadow-primary animate-scale-in">
-            <img 
-              src={speakingHero} 
-              alt="Speaking at technology conference" 
-              className="w-full h-64 lg:h-96 object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-background/90 via-background/40 to-transparent"></div>
-            <div className="absolute bottom-0 left-0 right-0 p-8">
-              <Badge className="mb-3 bg-primary text-primary-foreground">Featured</Badge>
-              <h3 className="text-3xl font-bold text-foreground mb-2">Autocon 4 - Leadership Track</h3>
-              <p className="text-lg text-foreground/80">From Vision to Reality: Building an Enterprise Automation Platform in Banking</p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 animate-scale-in">
+            {/* Video Embed */}
+            <div className="relative rounded-2xl overflow-hidden shadow-primary aspect-video">
+              <iframe
+                src="https://www.youtube.com/embed/b8DZzlM0beo"
+                title="Autocon 4 - From Vision to Reality: Building an Enterprise Automation Platform in Banking"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+                className="absolute inset-0 w-full h-full"
+              />
+            </div>
+            
+            {/* Featured Info */}
+            <div className="flex flex-col justify-center">
+              <Badge className="mb-4 w-fit bg-primary text-primary-foreground">
+                <Youtube className="h-3 w-3 mr-1" />
+                Featured Talk
+              </Badge>
+              <h3 className="text-2xl lg:text-3xl font-bold text-foreground mb-3">
+                Autocon 4 - Leadership Track
+              </h3>
+              <p className="text-lg text-muted-foreground mb-4">
+                From Vision to Reality: Building an Enterprise Automation Platform in Banking
+              </p>
+              <div className="space-y-2 mb-6">
+                <div className="flex items-center gap-2 text-foreground">
+                  <div className="h-2 w-2 rounded-full bg-primary"></div>
+                  <span>66% efficiency improvement</span>
+                </div>
+                <div className="flex items-center gap-2 text-foreground">
+                  <div className="h-2 w-2 rounded-full bg-primary"></div>
+                  <span>3,500 hours saved</span>
+                </div>
+              </div>
+              <div className="flex flex-wrap gap-3">
+                <a
+                  href="https://www.linkedin.com/posts/andrewconrymurray_autocon4-activity-7397408153874845696-d2xr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+                >
+                  <ExternalLink className="h-4 w-4" />
+                  PacketPushers Review
+                </a>
+                <a
+                  href="/presentations/VisionToReality_Sujit_Final2.pptx"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+                >
+                  <Download className="h-4 w-4" />
+                  Download Presentation
+                </a>
+              </div>
             </div>
           </div>
         </div>
