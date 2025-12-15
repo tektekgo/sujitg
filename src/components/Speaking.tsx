@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mic, Calendar, MapPin, Award, ExternalLink, Download } from "lucide-react";
+import { Mic, Calendar, MapPin, Award, ExternalLink, Download, Youtube } from "lucide-react";
 import speakingHero from "@/assets/speaking-hero.jpg";
 import gsdcCertificate from "@/assets/gsdc-certificate.png";
 import gsdcBadge from "@/assets/gsdc-advisor-badge.png";
@@ -25,6 +25,11 @@ const engagements = [
     featured: true,
     achievements: ["66% efficiency improvement", "3,500 hours saved"],
     links: [
+      {
+        label: "Watch on YouTube",
+        url: "https://www.youtube.com/watch?v=b8DZzlM0beo",
+        type: "youtube"
+      },
       { 
         label: "PacketPushers Review", 
         url: "https://www.linkedin.com/posts/andrewconrymurray_autocon4-activity-7397408153874845696-d2xr"
@@ -149,9 +154,15 @@ export const Speaking = () => {
                         href={link.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center gap-2 text-sm text-primary hover:text-primary/80 transition-colors"
+                        className={`flex items-center gap-2 text-sm transition-colors ${
+                          (link as any).type === "youtube" 
+                            ? "text-red-500 hover:text-red-400 font-medium" 
+                            : "text-primary hover:text-primary/80"
+                        }`}
                       >
-                        {link.label.includes("Download") ? (
+                        {(link as any).type === "youtube" ? (
+                          <Youtube className="h-4 w-4" />
+                        ) : link.label.includes("Download") ? (
                           <Download className="h-4 w-4" />
                         ) : (
                           <ExternalLink className="h-4 w-4" />
