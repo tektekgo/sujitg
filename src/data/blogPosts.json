@@ -1,5 +1,17 @@
 [
   {
+    "id": "ai-for-finance-professional",
+    "category": "AI",
+    "title": "The Intelligent Edge: An Introduction to AI for the Modern Finance Professional",
+    "excerpt": "The Intelligent Edge: An Introduction to AI for the Modern Finance Professional - cuts through the noise to provide a clear, concise, and actionable introduction to leveraging AI",
+    "date": "Jan 2026",
+    "readTime": "6 min read",
+    "link": null,
+    "source": "notion",
+    "notionId": "2e93856f-5ba5-8006-8187-f2a9af9d8406",
+    "hasContent": true
+  },
+  {
     "id": "devops-future-2024",
     "category": "Automation",
     "title": "The Future of DevOps Engineering: A Confluence of Infrastructure, Automation, AI, and Quantum",
