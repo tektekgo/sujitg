@@ -97,7 +97,7 @@ function getPropertyValue(page, propertyName, type) {
 }
 
 function notionPageToBlogPost(page) {
-  const title = getPropertyValue(page, 'Title', 'title');
+  const title = getPropertyValue(page, 'Title', 'title') || 'Untitled';
   const slug = getPropertyValue(page, 'Slug', 'rich_text') ||
     title.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '');
 
