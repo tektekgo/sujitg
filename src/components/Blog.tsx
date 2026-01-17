@@ -1,9 +1,22 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock } from "lucide-react";
 import blogPosts from "@/data/blogPosts.json";
+
+interface BlogPost {
+  id: string;
+  title: string;
+  excerpt: string;
+  category: string;
+  date: string;
+  readTime: string;
+  link?: string | null;
+  hasContent?: boolean;
+  source: string;
+}
 
 const categories = ["All", "AI", "Automation", "Cloud", "Leadership", "Innovation"];
 
@@ -81,6 +94,17 @@ export const Blog = () => {
                       Read Article
                       <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </a>
+                  </Button>
+                ) : (post as BlogPost).hasContent ? (
+                  <Button
+                    variant="ghost"
+                    className="w-full justify-between group-hover:text-primary"
+                    asChild
+                  >
+                    <Link to={`/blog/${post.id}`}>
+                      Read Article
+                      <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
+                    </Link>
                   </Button>
                 ) : (
                   <div className="text-sm text-muted-foreground italic text-center py-2">

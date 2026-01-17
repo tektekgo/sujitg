@@ -7,12 +7,17 @@
  * Or via GitHub Actions with secrets
  */
 
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const NOTION_API_KEY = process.env.NOTION_API_KEY;
 const NOTION_DATABASE_ID = process.env.NOTION_DATABASE_ID;
 const BLOG_POSTS_PATH = path.join(__dirname, '../src/data/blogPosts.json');
+const ARTICLES_DIR = path.join(__dirname, '../src/data/articles');
 
 async function fetchNotionDatabase() {
   const response = await fetch(`https://api.notion.com/v1/databases/${NOTION_DATABASE_ID}/query`, {
@@ -26,7 +31,8 @@ async function fetchNotionDatabase() {
       filter: {
         or: [
           { property: 'Status', select: { equals: 'Published' } },
-          { property: 'Status', select: { equals: 'Ready to Publish' } }
+          { property: 'Status', select: { equals: 'Ready to Publish' } },
+          { property: 'Status', select: { equals: 'Ready To Publish' } }
         ]
       },
       sorts: [
@@ -41,6 +47,32 @@ async function fetchNotionDatabase() {
   }
 
   return response.json();
+}
+
+async function fetchPageBlocks(pageId) {
+  const blocks = [];
+  let cursor = undefined;
+
+  do {
+    const url = `https://api.notion.com/v1/blocks/${pageId}/children${cursor ? `?start_cursor=${cursor}` : ''}`;
+    const response = await fetch(url, {
+      headers: {
+        'Authorization': `Bearer ${NOTION_API_KEY}`,
+        'Notion-Version': '2022-06-28',
+      },
+    });
+
+    if (!response.ok) {
+      const error = await response.text();
+      throw new Error(`Failed to fetch blocks: ${response.status} - ${error}`);
+    }
+
+    const data = await response.json();
+    blocks.push(...data.results);
+    cursor = data.has_more ? data.next_cursor : undefined;
+  } while (cursor);
+
+  return blocks;
 }
 
 async function updateNotionPageStatus(pageId) {
@@ -122,6 +154,11 @@ async function main() {
     process.exit(1);
   }
 
+  // Ensure articles directory exists
+  if (!fs.existsSync(ARTICLES_DIR)) {
+    fs.mkdirSync(ARTICLES_DIR, { recursive: true });
+  }
+
   // Load existing posts
   let existingPosts = [];
   try {
@@ -142,17 +179,35 @@ async function main() {
     process.exit(1);
   }
 
-  // Convert Notion pages to blog posts
-  const notionPosts = notionData.results.map(notionPageToBlogPost);
+  // Convert Notion pages to blog posts and fetch content
+  const notionPosts = [];
+  for (const page of notionData.results) {
+    const post = notionPageToBlogPost(page);
+    notionPosts.push(post);
+
+    // Only fetch content for articles without external links
+    if (!post.link) {
+      console.log(`📄 Fetching content: ${post.title}`);
+      try {
+        const blocks = await fetchPageBlocks(page.id);
+        const contentPath = path.join(ARTICLES_DIR, `${post.id}.json`);
+        fs.writeFileSync(contentPath, JSON.stringify(blocks, null, 2));
+        post.hasContent = true;
+        console.log(`   ✓ Saved ${blocks.length} blocks`);
+      } catch (err) {
+        console.warn(`   ⚠ Failed to fetch content: ${err.message}`);
+        post.hasContent = false;
+      }
+    }
+  }
 
   // Keep manual posts, replace/add Notion posts
   const manualPosts = existingPosts.filter(p => p.source === 'manual');
-  const existingNotionIds = new Set(existingPosts.filter(p => p.source === 'notion').map(p => p.notionId));
 
   // Update status for newly published posts
   for (const page of notionData.results) {
     const status = getPropertyValue(page, 'Status', 'select');
-    if (status === 'Ready to Publish') {
+    if (status === 'Ready to Publish' || status === 'Ready To Publish') {
       console.log(`📤 Marking as published: ${getPropertyValue(page, 'Title', 'title')}`);
       await updateNotionPageStatus(page.id);
     }
