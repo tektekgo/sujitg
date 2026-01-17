@@ -1,0 +1,53 @@
+name: Sync Notion Articles
+
+on:
+  # Manual trigger from GitHub Actions UI
+  workflow_dispatch:
+
+  # Scheduled: runs daily at 9 AM UTC
+  # Uncomment below to enable scheduled runs
+  # schedule:
+  #   - cron: '0 9 * * *'
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync from Notion
+        env:
+          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: node scripts/sync-notion.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          git diff --quiet src/data/blogPosts.json || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add src/data/blogPosts.json
+          git commit -m "Sync articles from Notion
+
+          Automated sync via GitHub Actions
+
+          Co-Authored-By: github-actions[bot] <github-actions[bot]@users.noreply.github.com>"
+          git push
+
+      - name: No changes
+        if: steps.changes.outputs.changed != 'true'
+        run: echo "No new articles to sync"

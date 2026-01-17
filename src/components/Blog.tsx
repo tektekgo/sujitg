@@ -1,67 +1,19 @@
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock } from "lucide-react";
-
-const blogPosts = [
-  {
-    category: "Automation",
-    title: "The Future of DevOps Engineering: A Confluence of Infrastructure, Automation, AI, and Quantum",
-    excerpt: "Exploring how the convergence of infrastructure automation, artificial intelligence, and quantum computing is reshaping the DevOps landscape.",
-    date: "2024",
-    readTime: "8 min read",
-    link: "https://medium.com/@gsujit/the-future-of-devops-engineering-a-confluence-of-infrastructure-automation-ai-and-quantum-89ff08feb0db"
-  },
-  {
-    category: "AI",
-    title: "Building ExcelGPT: AI-Powered Spreadsheet Intelligence",
-    excerpt: "How custom GPT models are transforming enterprise data analysis and decision-making processes.",
-    date: "Mar 2024",
-    readTime: "5 min read",
-    link: "https://chatgpt.com/g/g-68a7d16bee7c819183b9b7124469644b-excelgpt"
-  },
-  {
-    category: "Automation",
-    title: "Infrastructure as Code: A 400% Efficiency Journey",
-    excerpt: "Lessons learned from piloting BrainBoard and achieving dramatic improvements in infrastructure delivery.",
-    date: "Feb 2024",
-    readTime: "7 min read"
-  },
-  {
-    category: "Cloud",
-    title: "Cloud-First Strategy in Regulated Industries",
-    excerpt: "Navigating compliance, security, and innovation in financial services cloud transformation.",
-    date: "Jan 2024",
-    readTime: "6 min read"
-  },
-  {
-    category: "Leadership",
-    title: "Building High-Performing Global DevOps Teams",
-    excerpt: "Strategies for scaling teams across US, Europe, and Asia while maintaining culture and delivery excellence.",
-    date: "Dec 2023",
-    readTime: "8 min read"
-  },
-  {
-    category: "Innovation",
-    title: "SplitBI: Democratizing Business Intelligence",
-    excerpt: "The story behind creating an accessible BI tool that empowers non-technical users.",
-    date: "Nov 2023",
-    readTime: "5 min read",
-    link: "https://splitbi.app"
-  },
-  {
-    category: "AI",
-    title: "AI-Focus.org: A Platform for AI Transformation",
-    excerpt: "Building a community resource to help organizations navigate their AI adoption journey.",
-    date: "Oct 2023",
-    readTime: "4 min read",
-    link: "https://www.ai-focus.org"
-  }
-];
+import blogPosts from "@/data/blogPosts.json";
 
 const categories = ["All", "AI", "Automation", "Cloud", "Leadership", "Innovation"];
 
 export const Blog = () => {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const filteredPosts = selectedCategory === "All"
+    ? blogPosts
+    : blogPosts.filter(post => post.category === selectedCategory);
+
   return (
     <section className="py-24 bg-background relative overflow-hidden" id="blog">
       <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 to-background"></div>
@@ -78,10 +30,11 @@ export const Blog = () => {
 
         <div className="flex flex-wrap gap-3 justify-center mb-12 animate-slide-in">
           {categories.map((category) => (
-            <Badge 
+            <Badge
               key={category}
-              variant={category === "All" ? "default" : "outline"}
+              variant={category === selectedCategory ? "default" : "outline"}
               className="px-4 py-2 text-sm cursor-pointer hover:bg-primary hover:text-primary-foreground transition-colors"
+              onClick={() => setSelectedCategory(category)}
             >
               {category}
             </Badge>
@@ -89,7 +42,7 @@ export const Blog = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {blogPosts.map((post, index) => (
+          {filteredPosts.map((post, index) => (
             <Card 
               key={index}
               className="group hover:shadow-primary transition-all duration-300 hover:-translate-y-2 border-border animate-scale-in"
@@ -119,24 +72,20 @@ export const Blog = () => {
                 </div>
 
                 {post.link ? (
-                  <Button 
-                    variant="ghost" 
+                  <Button
+                    variant="ghost"
                     className="w-full justify-between group-hover:text-primary"
                     asChild
                   >
                     <a href={post.link} target="_blank" rel="noopener noreferrer">
-                      Visit Project
+                      Read Article
                       <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
                     </a>
                   </Button>
                 ) : (
-                  <Button 
-                    variant="ghost" 
-                    className="w-full justify-between group-hover:text-primary"
-                  >
-                    Read More
-                    <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
-                  </Button>
+                  <div className="text-sm text-muted-foreground italic text-center py-2">
+                    Coming Soon
+                  </div>
                 )}
               </CardContent>
             </Card>
