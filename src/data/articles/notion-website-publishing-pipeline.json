@@ -1,13 +1,597 @@
 [
   {
     "object": "block",
-    "id": "2ec3856f-5ba5-80ba-b6fc-f2b5e4aaeaaa",
+    "id": "2ec3856f-5ba5-80fd-a37e-d28b138e738f",
     "parent": {
       "type": "page_id",
       "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
     },
-    "created_time": "2026-01-18T03:11:00.000Z",
-    "last_edited_time": "2026-01-18T03:11:00.000Z",
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Building a Notion-to-Website Publishing Pipeline with GitHub Actions",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Building a Notion-to-Website Publishing Pipeline with GitHub Actions",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e3-a4a2-f272adbeb0db",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How I automated my blog publishing workflow using Notion as a CMS, GitHub Actions for orchestration, and React for rendering.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How I automated my blog publishing workflow using Notion as a CMS, GitHub Actions for orchestration, and React for rendering.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e8-bacf-d5418f830f73",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8080-b307-dd491e5807db",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Problem",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Problem",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-809a-99ff-ce5b3e7cada2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "As someone who writes about technology leadership and digital transformation, I wanted a frictionless way to publish articles. The typical workflow felt fragmented:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "As someone who writes about technology leadership and digital transformation, I wanted a frictionless way to publish articles. The typical workflow felt fragmented:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8071-a0b5-d5973b7d4e4a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Write in Google Docs or Word",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Write in Google Docs or Word",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a8-82a9-da87d0f7b516",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Copy to Medium or LinkedIn",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Copy to Medium or LinkedIn",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80cd-90c4-ecac444f1a99",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Manually update my portfolio website",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Manually update my portfolio website",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8000-b4f7-f136e4549453",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Repeat for every article",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Repeat for every article",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80fb-aaee-f10d67a3ea29",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I wanted a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I wanted a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "single source of truth",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "single source of truth",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " where I could write once and publish everywhere—or at least to my own website automatically.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " where I could write once and publish everywhere—or at least to my own website automatically.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e3-b12d-ced23fb5b647",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "My requirements were simple:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "My requirements were simple:",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "\n1. Write in a tool I already use (Notion)\n2. Set a status to “Ready to Publish” and walk away\n3. Have the article appear on my website automatically\n4. Support both native articles and links to external posts (Medium, LinkedIn)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\n1. Write in a tool I already use (Notion)\n2. Set a status to “Ready to Publish” and walk away\n3. Have the article appear on my website automatically\n4. Support both native articles and links to external posts (Medium, LinkedIn)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a8-a925-fd206ea99bb1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80ba-8980-d52c4094265e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Solution Architecture",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Solution Architecture",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80fc-bd53-e7e991b3d1a8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
     "created_by": {
       "object": "user",
       "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
@@ -26,7 +610,7 @@
         {
           "type": "text",
           "text": {
-            "content": "# Building a Notion-to-Website Publishing Pipeline with GitHub Actions\n\n*How I automated my blog publishing workflow using Notion as a CMS, GitHub Actions for orchestration, and React for rendering.*\n\n---\n\n## The Problem\n\nAs someone who writes about technology leadership and digital transformation, I wanted a frictionless way to publish articles. The typical workflow felt fragmented:\n\n- Write in Google Docs or Word\n- Copy to Medium or LinkedIn\n- Manually update my portfolio website\n- Repeat for every article\n\nI wanted a **single source of truth** where I could write once and publish everywhere—or at least to my own website automatically.\n\n**My requirements were simple:**\n1. Write in a tool I already use (Notion)\n2. Set a status to \"Ready to Publish\" and walk away\n3. Have the article appear on my website automatically\n4. Support both native articles and links to external posts (Medium, LinkedIn)\n\n---\n\n## The Solution Architecture\n\n```\n┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐\n│     Notion      │     │  GitHub Action  │     │   Portfolio     │\n│   (Write here)  │────▶│  (Weekly sync)  │────▶│   Website       │\n│                 │     │                 │     │                 │\n│ Status: Ready   │     │ • Fetch posts   │     │ • Renders full  │\n│ to Publish      │     │ • Pull content  │     │   articles      │\n│                 │     │ • Commit to repo│     │ • Auto rebuilds │\n└─────────────────┘     └─────────────────┘     └─────────────────┘\n```\n\nThe beauty of this approach:\n- **No database needed** — content is stored as JSON in the repo\n- **No server costs** — GitHub Actions free tier is more than enough\n- **Version controlled** — every article change is a git commit\n- **Fast** — static site, content is pre-fetched at build time\n\n---\n\n## Setting Up Notion as a CMS\n\n### The Database Structure\n\nI created a simple Notion database called \"Articles\" with these properties:\n\n| Property | Type | Purpose |\n|----------|------|---------|\n| Title | Title | Article headline |\n| Slug | Text | URL-friendly ID (`my-article-name`) |\n| Category | Select | AI, Automation, Cloud, Leadership |\n| Excerpt | Text | Short description for article cards |\n| ReadTime | Text | \"5 min read\" |\n| Status | Select | Draft, Ready to Publish, Published |\n| Link | URL | External link (for Medium/LinkedIn posts) |\n\nThe key insight: **each database row is a full page**. The properties are metadata; the page content below is the actual article.\n\n### Creating the Integration\n\n1. Go to [notion.so/my-integrations](https://notion.so/my-integrations)\n2. Create a new internal integration\n3. Grant it read and update permissions\n4. Share your Articles database with the integration\n\nYou'll get an API key (starts with `ntn_` or `secret_`) and need your database ID from the URL.\n\n---\n\n## The Sync Script\n\nThe heart of the system is a Node.js script that:\n1. Fetches articles from Notion with status \"Ready to Publish\" or \"Published\"\n2. Pulls the full page content (blocks)\n3. Saves everything as JSON files\n4. Updates the article status in Notion\n\n### Fetching the Database\n\n```javascript\nasync function fetchNotionDatabase() {\n  const response = await fetch(\n    `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,\n    {\n      method: 'POST',\n      headers: {\n        'Authorization': `Bearer ${API_KEY}`,\n        'Notion-Version': '2022-06-28',\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify({\n        filter: {\n          or: [\n            { property: 'Status', select: { equals: 'Published' } },\n            { property: 'Status', select: { equals: 'Ready to Publish' } }\n          ]\n        }\n      })\n    }\n  );\n  return response.json();\n}\n```\n\n### Fetching Page Content\n\nNotion stores content as \"blocks\" — paragraphs, headings, lists, images, etc. Each block has a type and content.\n\n```javascript\nasync function fetchPageBlocks(pageId) {\n  const blocks = [];\n  let cursor = undefined;\n\n  do {\n    const response = await fetch(\n      `https://api.notion.com/v1/blocks/${pageId}/children${cursor ? `?start_cursor=${cursor}` : ''}`,\n      {\n        headers: {\n          'Authorization': `Bearer ${API_KEY}`,\n          'Notion-Version': '2022-06-28',\n        },\n      }\n    );\n    const data = await response.json();\n    blocks.push(...data.results);\n    cursor = data.has_more ? data.next_cursor : undefined;\n  } while (cursor);\n\n  return blocks;\n}\n```\n\n### Transforming to Blog Post Format\n\n```javascript\nfunction notionPageToBlogPost(page) {\n  const title = getPropertyValue(page, 'Title', 'title');\n  const slug = getPropertyValue(page, 'Slug', 'rich_text') ||\n    title.toLowerCase().replace(/[^a-z0-9]+/g, '-');\n\n  return {\n    id: slug,\n    category: getPropertyValue(page, 'Category', 'select'),\n    title: title,\n    excerpt: getPropertyValue(page, 'Excerpt', 'rich_text'),\n    readTime: getPropertyValue(page, 'ReadTime', 'rich_text'),\n    link: getPropertyValue(page, 'Link', 'url'),  // null for native articles\n    hasContent: true,\n    source: 'notion'\n  };\n}\n```\n\nThe script outputs two things:\n- `blogPosts.json` — metadata for all articles\n- `articles/{slug}.json` — full content for each native article\n\n---\n\n## GitHub Actions Workflow\n\nThe workflow runs on a schedule (weekly) and can be triggered manually.\n\n```yaml\nname: Sync Notion Articles\n\non:\n  workflow_dispatch:  # Manual trigger\n  schedule:\n    - cron: '0 9 * * 0'  # Every Sunday at 9 AM UTC\n\njobs:\n  sync:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n\n      - uses: actions/setup-node@v4\n        with:\n          node-version: '20'\n\n      - name: Sync from Notion\n        env:\n          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}\n          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}\n        run: node scripts/sync-notion.js\n\n      - name: Commit and push changes\n        run: |\n          git config user.email \"github-actions[bot]@users.noreply.github.com\"\n          git config user.name \"github-actions[bot]\"\n          git add src/data/\n          git diff --staged --quiet || git commit -m \"Sync articles from Notion\"\n          git push\n```\n\n**Cost:** Nearly zero. A sync takes ~30 seconds. Weekly = ~2 minutes/month. GitHub's free tier gives you 2,000 minutes.\n\n---\n\n## Rendering Notion Blocks in React\n\nNotion content is structured as blocks. Here's a simplified renderer:\n\n```tsx\nfunction NotionBlock({ block }) {\n  const { type } = block;\n  const value = block[type];\n\n  switch (type) {\n    case 'paragraph':\n      return <p>{renderRichText(value.rich_text)}</p>;\n\n    case 'heading_1':\n      return <h1>{renderRichText(value.rich_text)}</h1>;\n\n    case 'heading_2':\n      return <h2>{renderRichText(value.rich_text)}</h2>;\n\n    case 'bulleted_list_item':\n      return <li>{renderRichText(value.rich_text)}</li>;\n\n    case 'code':\n      return (\n        <pre>\n          <code>{renderRichText(value.rich_text)}</code>\n        </pre>\n      );\n\n    case 'image':\n      const src = value.type === 'external'\n        ? value.external.url\n        : value.file.url;\n      return <img src={src} alt=\"\" />;\n\n    case 'quote':\n      return <blockquote>{renderRichText(value.rich_text)}</blockquote>;\n\n    default:\n      return null;\n  }\n}\n```\n\nThe `renderRichText` function handles inline formatting (bold, italic, links, code).\n\n---\n\n## Supporting Both Native and External Articles\n\nA key design decision: the same system handles both:\n\n- **Native articles** (written in Notion, rendered on site) → `link` is null, `hasContent` is true\n- **External articles** (published on Medium/LinkedIn) → `link` points to the external URL\n\nIn the UI:\n```tsx\n{post.link ? (\n  <a href={post.link} target=\"_blank\">Read on Medium</a>\n) : post.hasContent ? (\n  <Link to={`/blog/${post.id}`}>Read Article</Link>\n) : (\n  <span>Coming Soon</span>\n)}\n```\n\nThis means I can mix my own articles with links to Medium posts, all managed from the same Notion database.\n\n---\n\n## Lessons Learned\n\n### 1. Notion Image URLs Expire\n\nIf you upload images directly to Notion, the URLs expire after about an hour. For permanent images, use an external host:\n- Upload to Cloudinary, Imgur, or similar\n- Paste the external URL in Notion\n- These URLs never expire\n\n### 2. Status Field Casing Matters\n\nMy script looked for \"Ready to Publish\" but Notion had \"Ready To Publish\" (capital T). Exact string matching caught me off guard. Either normalize in code or be consistent in Notion.\n\n### 3. Keep Manual and Synced Posts Separate\n\nI mark posts with a `source` field:\n- `source: \"notion\"` — managed by the sync\n- `source: \"manual\"` — legacy posts, never touched by sync\n\nThis prevents the automation from deleting articles I added before building this system.\n\n### 4. The GitHub Actions Free Tier is Generous\n\nI was worried about costs. In practice:\n- Sync runs once a week\n- Takes ~30 seconds\n- Monthly usage: ~2 minutes\n- Free tier: 2,000 minutes\n\nI'll never hit the limit with this use case.\n\n---\n\n## The Final Workflow\n\nMy publishing workflow is now:\n\n1. **Write** the article in Notion (my daily tool anyway)\n2. **Fill in** the metadata (title, slug, category, excerpt)\n3. **Set status** to \"Ready to Publish\"\n4. **Done** — the weekly sync picks it up, or I trigger it manually if urgent\n\nNo copying, no pasting, no manual updates. Write once, publish automatically.\n\n---\n\n## What's Next?\n\nFuture enhancements I'm considering:\n- **n8n integration** — for more complex workflows (Slack notifications, draft previews)\n- **Reading time calculation** — auto-generate from content length\n- **SEO metadata** — auto-generate meta descriptions from excerpts\n\nBut honestly? The current system does exactly what I need. Sometimes the best automation is the simplest one that actually works.\n\n---\n\n*This article was written in Notion and automatically published to my website using the system described above. Meta, I know.*\n\n---\n\n## Resources\n\n- [Notion API Documentation](https://developers.notion.com/)\n- [GitHub Actions Documentation](https://docs.github.com/en/actions)\n- Source code available on request\n\n---\n\n**Tags:** Automation, Notion, GitHub Actions, React, Publishing\n**Category:** Automation\n**Read Time:** 8 min read\n",
+            "content": "┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐\n│     Notion      │     │  GitHub Action  │     │   Portfolio     │\n│   (Write here)  │────▶│  (Weekly sync)  │────▶│   Website       │\n│                 │     │                 │     │                 │\n│ Status: Ready   │     │ • Fetch posts   │     │ • Renders full  │\n│ to Publish      │     │ • Pull content  │     │   articles      │\n│                 │     │ • Commit to repo│     │ • Auto rebuilds │\n└─────────────────┘     └─────────────────┘     └─────────────────┘",
             "link": null
           },
           "annotations": {
@@ -37,11 +621,3960 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "# Building a Notion-to-Website Publishing Pipeline with GitHub Actions\n\n*How I automated my blog publishing workflow using Notion as a CMS, GitHub Actions for orchestration, and React for rendering.*\n\n---\n\n## The Problem\n\nAs someone who writes about technology leadership and digital transformation, I wanted a frictionless way to publish articles. The typical workflow felt fragmented:\n\n- Write in Google Docs or Word\n- Copy to Medium or LinkedIn\n- Manually update my portfolio website\n- Repeat for every article\n\nI wanted a **single source of truth** where I could write once and publish everywhere—or at least to my own website automatically.\n\n**My requirements were simple:**\n1. Write in a tool I already use (Notion)\n2. Set a status to \"Ready to Publish\" and walk away\n3. Have the article appear on my website automatically\n4. Support both native articles and links to external posts (Medium, LinkedIn)\n\n---\n\n## The Solution Architecture\n\n```\n┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐\n│     Notion      │     │  GitHub Action  │     │   Portfolio     │\n│   (Write here)  │────▶│  (Weekly sync)  │────▶│   Website       │\n│                 │     │                 │     │                 │\n│ Status: Ready   │     │ • Fetch posts   │     │ • Renders full  │\n│ to Publish      │     │ • Pull content  │     │   articles      │\n│                 │     │ • Commit to repo│     │ • Auto rebuilds │\n└─────────────────┘     └─────────────────┘     └─────────────────┘\n```\n\nThe beauty of this approach:\n- **No database needed** — content is stored as JSON in the repo\n- **No server costs** — GitHub Actions free tier is more than enough\n- **Version controlled** — every article change is a git commit\n- **Fast** — static site, content is pre-fetched at build time\n\n---\n\n## Setting Up Notion as a CMS\n\n### The Database Structure\n\nI created a simple Notion database called \"Articles\" with these properties:\n\n| Property | Type | Purpose |\n|----------|------|---------|\n| Title | Title | Article headline |\n| Slug | Text | URL-friendly ID (`my-article-name`) |\n| Category | Select | AI, Automation, Cloud, Leadership |\n| Excerpt | Text | Short description for article cards |\n| ReadTime | Text | \"5 min read\" |\n| Status | Select | Draft, Ready to Publish, Published |\n| Link | URL | External link (for Medium/LinkedIn posts) |\n\nThe key insight: **each database row is a full page**. The properties are metadata; the page content below is the actual article.\n\n### Creating the Integration\n\n1. Go to [notion.so/my-integrations](https://notion.so/my-integrations)\n2. Create a new internal integration\n3. Grant it read and update permissions\n4. Share your Articles database with the integration\n\nYou'll get an API key (starts with `ntn_` or `secret_`) and need your database ID from the URL.\n\n---\n\n## The Sync Script\n\nThe heart of the system is a Node.js script that:\n1. Fetches articles from Notion with status \"Ready to Publish\" or \"Published\"\n2. Pulls the full page content (blocks)\n3. Saves everything as JSON files\n4. Updates the article status in Notion\n\n### Fetching the Database\n\n```javascript\nasync function fetchNotionDatabase() {\n  const response = await fetch(\n    `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,\n    {\n      method: 'POST',\n      headers: {\n        'Authorization': `Bearer ${API_KEY}`,\n        'Notion-Version': '2022-06-28',\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify({\n        filter: {\n          or: [\n            { property: 'Status', select: { equals: 'Published' } },\n            { property: 'Status', select: { equals: 'Ready to Publish' } }\n          ]\n        }\n      })\n    }\n  );\n  return response.json();\n}\n```\n\n### Fetching Page Content\n\nNotion stores content as \"blocks\" — paragraphs, headings, lists, images, etc. Each block has a type and content.\n\n```javascript\nasync function fetchPageBlocks(pageId) {\n  const blocks = [];\n  let cursor = undefined;\n\n  do {\n    const response = await fetch(\n      `https://api.notion.com/v1/blocks/${pageId}/children${cursor ? `?start_cursor=${cursor}` : ''}`,\n      {\n        headers: {\n          'Authorization': `Bearer ${API_KEY}`,\n          'Notion-Version': '2022-06-28',\n        },\n      }\n    );\n    const data = await response.json();\n    blocks.push(...data.results);\n    cursor = data.has_more ? data.next_cursor : undefined;\n  } while (cursor);\n\n  return blocks;\n}\n```\n\n### Transforming to Blog Post Format\n\n```javascript\nfunction notionPageToBlogPost(page) {\n  const title = getPropertyValue(page, 'Title', 'title');\n  const slug = getPropertyValue(page, 'Slug', 'rich_text') ||\n    title.toLowerCase().replace(/[^a-z0-9]+/g, '-');\n\n  return {\n    id: slug,\n    category: getPropertyValue(page, 'Category', 'select'),\n    title: title,\n    excerpt: getPropertyValue(page, 'Excerpt', 'rich_text'),\n    readTime: getPropertyValue(page, 'ReadTime', 'rich_text'),\n    link: getPropertyValue(page, 'Link', 'url'),  // null for native articles\n    hasContent: true,\n    source: 'notion'\n  };\n}\n```\n\nThe script outputs two things:\n- `blogPosts.json` — metadata for all articles\n- `articles/{slug}.json` — full content for each native article\n\n---\n\n## GitHub Actions Workflow\n\nThe workflow runs on a schedule (weekly) and can be triggered manually.\n\n```yaml\nname: Sync Notion Articles\n\non:\n  workflow_dispatch:  # Manual trigger\n  schedule:\n    - cron: '0 9 * * 0'  # Every Sunday at 9 AM UTC\n\njobs:\n  sync:\n    runs-on: ubuntu-latest\n    steps:\n      - uses: actions/checkout@v4\n\n      - uses: actions/setup-node@v4\n        with:\n          node-version: '20'\n\n      - name: Sync from Notion\n        env:\n          NOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}\n          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}\n        run: node scripts/sync-notion.js\n\n      - name: Commit and push changes\n        run: |\n          git config user.email \"github-actions[bot]@users.noreply.github.com\"\n          git config user.name \"github-actions[bot]\"\n          git add src/data/\n          git diff --staged --quiet || git commit -m \"Sync articles from Notion\"\n          git push\n```\n\n**Cost:** Nearly zero. A sync takes ~30 seconds. Weekly = ~2 minutes/month. GitHub's free tier gives you 2,000 minutes.\n\n---\n\n## Rendering Notion Blocks in React\n\nNotion content is structured as blocks. Here's a simplified renderer:\n\n```tsx\nfunction NotionBlock({ block }) {\n  const { type } = block;\n  const value = block[type];\n\n  switch (type) {\n    case 'paragraph':\n      return <p>{renderRichText(value.rich_text)}</p>;\n\n    case 'heading_1':\n      return <h1>{renderRichText(value.rich_text)}</h1>;\n\n    case 'heading_2':\n      return <h2>{renderRichText(value.rich_text)}</h2>;\n\n    case 'bulleted_list_item':\n      return <li>{renderRichText(value.rich_text)}</li>;\n\n    case 'code':\n      return (\n        <pre>\n          <code>{renderRichText(value.rich_text)}</code>\n        </pre>\n      );\n\n    case 'image':\n      const src = value.type === 'external'\n        ? value.external.url\n        : value.file.url;\n      return <img src={src} alt=\"\" />;\n\n    case 'quote':\n      return <blockquote>{renderRichText(value.rich_text)}</blockquote>;\n\n    default:\n      return null;\n  }\n}\n```\n\nThe `renderRichText` function handles inline formatting (bold, italic, links, code).\n\n---\n\n## Supporting Both Native and External Articles\n\nA key design decision: the same system handles both:\n\n- **Native articles** (written in Notion, rendered on site) → `link` is null, `hasContent` is true\n- **External articles** (published on Medium/LinkedIn) → `link` points to the external URL\n\nIn the UI:\n```tsx\n{post.link ? (\n  <a href={post.link} target=\"_blank\">Read on Medium</a>\n) : post.hasContent ? (\n  <Link to={`/blog/${post.id}`}>Read Article</Link>\n) : (\n  <span>Coming Soon</span>\n)}\n```\n\nThis means I can mix my own articles with links to Medium posts, all managed from the same Notion database.\n\n---\n\n## Lessons Learned\n\n### 1. Notion Image URLs Expire\n\nIf you upload images directly to Notion, the URLs expire after about an hour. For permanent images, use an external host:\n- Upload to Cloudinary, Imgur, or similar\n- Paste the external URL in Notion\n- These URLs never expire\n\n### 2. Status Field Casing Matters\n\nMy script looked for \"Ready to Publish\" but Notion had \"Ready To Publish\" (capital T). Exact string matching caught me off guard. Either normalize in code or be consistent in Notion.\n\n### 3. Keep Manual and Synced Posts Separate\n\nI mark posts with a `source` field:\n- `source: \"notion\"` — managed by the sync\n- `source: \"manual\"` — legacy posts, never touched by sync\n\nThis prevents the automation from deleting articles I added before building this system.\n\n### 4. The GitHub Actions Free Tier is Generous\n\nI was worried about costs. In practice:\n- Sync runs once a week\n- Takes ~30 seconds\n- Monthly usage: ~2 minutes\n- Free tier: 2,000 minutes\n\nI'll never hit the limit with this use case.\n\n---\n\n## The Final Workflow\n\nMy publishing workflow is now:\n\n1. **Write** the article in Notion (my daily tool anyway)\n2. **Fill in** the metadata (title, slug, category, excerpt)\n3. **Set status** to \"Ready to Publish\"\n4. **Done** — the weekly sync picks it up, or I trigger it manually if urgent\n\nNo copying, no pasting, no manual updates. Write once, publish automatically.\n\n---\n\n## What's Next?\n\nFuture enhancements I'm considering:\n- **n8n integration** — for more complex workflows (Slack notifications, draft previews)\n- **Reading time calculation** — auto-generate from content length\n- **SEO metadata** — auto-generate meta descriptions from excerpts\n\nBut honestly? The current system does exactly what I need. Sometimes the best automation is the simplest one that actually works.\n\n---\n\n*This article was written in Notion and automatically published to my website using the system described above. Meta, I know.*\n\n---\n\n## Resources\n\n- [Notion API Documentation](https://developers.notion.com/)\n- [GitHub Actions Documentation](https://docs.github.com/en/actions)\n- Source code available on request\n\n---\n\n**Tags:** Automation, Notion, GitHub Actions, React, Publishing\n**Category:** Automation\n**Read Time:** 8 min read\n",
+          "plain_text": "┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐\n│     Notion      │     │  GitHub Action  │     │   Portfolio     │\n│   (Write here)  │────▶│  (Weekly sync)  │────▶│   Website       │\n│                 │     │                 │     │                 │\n│ Status: Ready   │     │ • Fetch posts   │     │ • Renders full  │\n│ to Publish      │     │ • Pull content  │     │   articles      │\n│                 │     │ • Commit to repo│     │ • Auto rebuilds │\n└─────────────────┘     └─────────────────┘     └─────────────────┘",
           "href": null
         }
       ],
-      "language": "markdown"
+      "language": "plain text"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8065-813c-fc2124bace6b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The beauty of this approach:\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The beauty of this approach:\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "No database needed",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "No database needed",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — content is stored as JSON in the repo\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — content is stored as JSON in the repo\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "No server costs",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "No server costs",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — GitHub Actions free tier is more than enough\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — GitHub Actions free tier is more than enough\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Version controlled",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Version controlled",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — every article change is a git commit\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — every article change is a git commit\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Fast",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fast",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — static site, content is pre-fetched at build time",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — static site, content is pre-fetched at build time",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a9-815a-e97f69234e27",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-800c-877e-f72c7a09bd8d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Setting Up Notion as a CMS",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Setting Up Notion as a CMS",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-806c-ac04-f5a43c0b77e6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Database Structure",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Database Structure",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-808f-9938-db863b4a6dde",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I created a simple Notion database called “Articles” with these properties:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I created a simple Notion database called “Articles” with these properties:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8049-9d3f-f486b507f2ae",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": true,
+    "archived": false,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 3,
+      "has_column_header": true,
+      "has_row_header": false
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-809c-96cb-fd02d1a1386a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The key insight: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The key insight: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "each database row is a full page",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "each database row is a full page",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". The properties are metadata; the page content below is the actual article.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". The properties are metadata; the page content below is the actual article.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8034-a2cc-dd18332e049e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Creating the Integration",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Creating the Integration",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-804c-8c72-e5893fa37d3c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Go to ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Go to ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "notion.so/my-integrations",
+            "link": {
+              "url": "https://notion.so/my-integrations"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "notion.so/my-integrations",
+          "href": "https://notion.so/my-integrations"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-809a-aca6-ebc4a192f27d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Create a new internal integration",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Create a new internal integration",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8025-a777-e69519902d7c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Grant it read and update permissions",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Grant it read and update permissions",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8077-8854-e17b2ef0f620",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Share your Articles database with the integration",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Share your Articles database with the integration",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8050-afc8-ca402d7cf247",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "You’ll get an API key (starts with ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "You’ll get an API key (starts with ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "ntn_",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "ntn_",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " or ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " or ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "secret_",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "secret_",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ") and need your database ID from the URL.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ") and need your database ID from the URL.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80f4-8b40-cbbc13d29475",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8083-a74e-e136a651b60e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Sync Script",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Sync Script",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8073-b495-e02b1dbd43f3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The heart of the system is a Node.js script that:\n1. Fetches articles from Notion with status “Ready to Publish” or “Published”\n2. Pulls the full page content (blocks)\n3. Saves everything as JSON files\n4. Updates the article status in Notion",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The heart of the system is a Node.js script that:\n1. Fetches articles from Notion with status “Ready to Publish” or “Published”\n2. Pulls the full page content (blocks)\n3. Saves everything as JSON files\n4. Updates the article status in Notion",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-809a-99d2-c40eb1733f13",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fetching the Database",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fetching the Database",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80ab-9df3-fbea1c5f8624",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "async function fetchNotionDatabase() {\n  const response = await fetch(\n    `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,\n    {\n      method: 'POST',\n      headers: {\n        'Authorization': `Bearer${API_KEY}`,\n        'Notion-Version': '2022-06-28',\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify({\n        filter: {\n          or: [\n            { property: 'Status', select: { equals: 'Published' } },\n            { property: 'Status', select: { equals: 'Ready to Publish' } }\n          ]\n        }\n      })\n    }\n  );\n  return response.json();\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "async function fetchNotionDatabase() {\n  const response = await fetch(\n    `https://api.notion.com/v1/databases/${DATABASE_ID}/query`,\n    {\n      method: 'POST',\n      headers: {\n        'Authorization': `Bearer${API_KEY}`,\n        'Notion-Version': '2022-06-28',\n        'Content-Type': 'application/json',\n      },\n      body: JSON.stringify({\n        filter: {\n          or: [\n            { property: 'Status', select: { equals: 'Published' } },\n            { property: 'Status', select: { equals: 'Ready to Publish' } }\n          ]\n        }\n      })\n    }\n  );\n  return response.json();\n}",
+          "href": null
+        }
+      ],
+      "language": "javascript"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8084-93e0-f0606d480870",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fetching Page Content",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fetching Page Content",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e9-b968-c702a9fbf81c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Notion stores content as “blocks” — paragraphs, headings, lists, images, etc. Each block has a type and content.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Notion stores content as “blocks” — paragraphs, headings, lists, images, etc. Each block has a type and content.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80d5-8071-e8ab62556629",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "async function fetchPageBlocks(pageId) {\n  const blocks = [];\n  let cursor = undefined;\n\n  do {\n    const response = await fetch(\n      `https://api.notion.com/v1/blocks/${pageId}/children${cursor ? `?start_cursor=${cursor}` : ''}`,\n      {\n        headers: {\n          'Authorization': `Bearer${API_KEY}`,\n          'Notion-Version': '2022-06-28',\n        },\n      }\n    );\n    const data = await response.json();\n    blocks.push(...data.results);\n    cursor = data.has_more ? data.next_cursor : undefined;\n  } while (cursor);\n\n  return blocks;\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "async function fetchPageBlocks(pageId) {\n  const blocks = [];\n  let cursor = undefined;\n\n  do {\n    const response = await fetch(\n      `https://api.notion.com/v1/blocks/${pageId}/children${cursor ? `?start_cursor=${cursor}` : ''}`,\n      {\n        headers: {\n          'Authorization': `Bearer${API_KEY}`,\n          'Notion-Version': '2022-06-28',\n        },\n      }\n    );\n    const data = await response.json();\n    blocks.push(...data.results);\n    cursor = data.has_more ? data.next_cursor : undefined;\n  } while (cursor);\n\n  return blocks;\n}",
+          "href": null
+        }
+      ],
+      "language": "javascript"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80d2-8c70-f1062b9e3d02",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Transforming to Blog Post Format",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Transforming to Blog Post Format",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a1-92b4-df9ce7a8ea50",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "function notionPageToBlogPost(page) {\n  const title = getPropertyValue(page, 'Title', 'title');\n  const slug = getPropertyValue(page, 'Slug', 'rich_text') ||\n    title.toLowerCase().replace(/[^a-z0-9]+/g, '-');\n\n  return {\n    id: slug,\n    category: getPropertyValue(page, 'Category', 'select'),\n    title: title,\n    excerpt: getPropertyValue(page, 'Excerpt', 'rich_text'),\n    readTime: getPropertyValue(page, 'ReadTime', 'rich_text'),\n    link: getPropertyValue(page, 'Link', 'url'),  // null for native articles\n    hasContent: true,\n    source: 'notion'\n  };\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "function notionPageToBlogPost(page) {\n  const title = getPropertyValue(page, 'Title', 'title');\n  const slug = getPropertyValue(page, 'Slug', 'rich_text') ||\n    title.toLowerCase().replace(/[^a-z0-9]+/g, '-');\n\n  return {\n    id: slug,\n    category: getPropertyValue(page, 'Category', 'select'),\n    title: title,\n    excerpt: getPropertyValue(page, 'Excerpt', 'rich_text'),\n    readTime: getPropertyValue(page, 'ReadTime', 'rich_text'),\n    link: getPropertyValue(page, 'Link', 'url'),  // null for native articles\n    hasContent: true,\n    source: 'notion'\n  };\n}",
+          "href": null
+        }
+      ],
+      "language": "javascript"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-807d-a490-d1c09b6f2969",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The script outputs two things:\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The script outputs two things:\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "blogPosts.json",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "blogPosts.json",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — metadata for all articles\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — metadata for all articles\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "articles/{slug}.json",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "articles/{slug}.json",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — full content for each native article",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — full content for each native article",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-800c-acf2-d9844418a5f0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80fe-983d-ff9c6f828705",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GitHub Actions Workflow",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GitHub Actions Workflow",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8038-95fb-f54c63dd9dfb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The workflow runs on a schedule (weekly) and can be triggered manually.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The workflow runs on a schedule (weekly) and can be triggered manually.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80c4-8acb-ce878e0ae7ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "name: Sync Notion Articles\n\non:\nworkflow_dispatch:  # Manual trigger\nschedule:\n-cron:'0 9 * * 0'  # Every Sunday at 9 AM UTC\n\njobs:\nsync:\nruns-on: ubuntu-latest\nsteps:\n-uses: actions/checkout@v4\n\n-uses: actions/setup-node@v4\nwith:\nnode-version:'20'\n\n-name: Sync from Notion\nenv:\nNOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}\nNOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}\nrun: node scripts/sync-notion.js\n\n-name: Commit and push changes\n        run:|\n          git config user.email \"github-actions[bot]@users.noreply.github.com\"\n          git config user.name \"github-actions[bot]\"\n          git add src/data/\n          git diff --staged --quiet || git commit -m \"Sync articles from Notion\"\n          git push",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "name: Sync Notion Articles\n\non:\nworkflow_dispatch:  # Manual trigger\nschedule:\n-cron:'0 9 * * 0'  # Every Sunday at 9 AM UTC\n\njobs:\nsync:\nruns-on: ubuntu-latest\nsteps:\n-uses: actions/checkout@v4\n\n-uses: actions/setup-node@v4\nwith:\nnode-version:'20'\n\n-name: Sync from Notion\nenv:\nNOTION_API_KEY: ${{ secrets.NOTION_API_KEY }}\nNOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}\nrun: node scripts/sync-notion.js\n\n-name: Commit and push changes\n        run:|\n          git config user.email \"github-actions[bot]@users.noreply.github.com\"\n          git config user.name \"github-actions[bot]\"\n          git add src/data/\n          git diff --staged --quiet || git commit -m \"Sync articles from Notion\"\n          git push",
+          "href": null
+        }
+      ],
+      "language": "yaml"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8014-8706-c4acb7bfe676",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Cost:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Cost:",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Nearly zero. A sync takes ~30 seconds. Weekly = ~2 minutes/month. GitHub’s free tier gives you 2,000 minutes.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Nearly zero. A sync takes ~30 seconds. Weekly = ~2 minutes/month. GitHub’s free tier gives you 2,000 minutes.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80f3-b1e4-db80d926644a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8002-bf90-c2c09ba4f4ba",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Rendering Notion Blocks in React",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Rendering Notion Blocks in React",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8095-9a3c-ec2d1c161b31",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Notion content is structured as blocks. Here’s a simplified renderer:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Notion content is structured as blocks. Here’s a simplified renderer:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8027-82d4-dbf3f0bfd7af",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "function NotionBlock({ block }) {\n  const { type } = block;\n  const value = block[type];\n\n  switch (type) {\n    case 'paragraph':\n      return <p>{renderRichText(value.rich_text)}</p>;\n\n    case 'heading_1':\n      return <h1>{renderRichText(value.rich_text)}</h1>;\n\n    case 'heading_2':\n      return <h2>{renderRichText(value.rich_text)}</h2>;\n\n    case 'bulleted_list_item':\n      return <li>{renderRichText(value.rich_text)}</li>;\n\n    case 'code':\n      return (\n        <pre>\n          <code>{renderRichText(value.rich_text)}</code>\n        </pre>\n      );\n\n    case 'image':\n      const src = value.type === 'external'\n        ? value.external.url\n        : value.file.url;\n      return <img src={src} alt=\"\" />;\n\n    case 'quote':\n      return <blockquote>{renderRichText(value.rich_text)}</blockquote>;\n\n    default:\n      return null;\n  }\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "function NotionBlock({ block }) {\n  const { type } = block;\n  const value = block[type];\n\n  switch (type) {\n    case 'paragraph':\n      return <p>{renderRichText(value.rich_text)}</p>;\n\n    case 'heading_1':\n      return <h1>{renderRichText(value.rich_text)}</h1>;\n\n    case 'heading_2':\n      return <h2>{renderRichText(value.rich_text)}</h2>;\n\n    case 'bulleted_list_item':\n      return <li>{renderRichText(value.rich_text)}</li>;\n\n    case 'code':\n      return (\n        <pre>\n          <code>{renderRichText(value.rich_text)}</code>\n        </pre>\n      );\n\n    case 'image':\n      const src = value.type === 'external'\n        ? value.external.url\n        : value.file.url;\n      return <img src={src} alt=\"\" />;\n\n    case 'quote':\n      return <blockquote>{renderRichText(value.rich_text)}</blockquote>;\n\n    default:\n      return null;\n  }\n}",
+          "href": null
+        }
+      ],
+      "language": "typescript"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8051-a4f8-c2449008012e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "renderRichText",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "renderRichText",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " function handles inline formatting (bold, italic, links, code).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " function handles inline formatting (bold, italic, links, code).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-800e-b8e6-d87daab64376",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8023-a7dc-db9661f50e4c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Supporting Both Native and External Articles",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Supporting Both Native and External Articles",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8067-8483-df1dcf17f34a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A key design decision: the same system handles both:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A key design decision: the same system handles both:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80b2-87d9-f247baac85c7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Native articles",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Native articles",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (written in Notion, rendered on site) → ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (written in Notion, rendered on site) → ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "link",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "link",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " is null, ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " is null, ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "hasContent",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "hasContent",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " is true",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " is true",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e8-aa38-e95181c0b05b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "External articles",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "External articles",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (published on Medium/LinkedIn) → ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (published on Medium/LinkedIn) → ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "link",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "link",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " points to the external URL",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " points to the external URL",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80dd-b759-c5c86f0bea33",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "In the UI:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "In the UI:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8022-bff2-febdf0bec85e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "{post.link ? (\n  <a href={post.link} target=\"_blank\">Read on Medium</a>\n) : post.hasContent ? (\n  <Link to={`/blog/${post.id}`}>Read Article</Link>\n) : (\n  <span>Coming Soon</span>\n)}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "{post.link ? (\n  <a href={post.link} target=\"_blank\">Read on Medium</a>\n) : post.hasContent ? (\n  <Link to={`/blog/${post.id}`}>Read Article</Link>\n) : (\n  <span>Coming Soon</span>\n)}",
+          "href": null
+        }
+      ],
+      "language": "typescript"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8049-b2e2-df4a74952072",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This means I can mix my own articles with links to Medium posts, all managed from the same Notion database.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This means I can mix my own articles with links to Medium posts, all managed from the same Notion database.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8043-889b-fe743ea4dc7d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8033-b504-c348de3c53e8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Lessons Learned",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Lessons Learned",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80bd-bb80-ec221344336a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "1. Notion Image URLs Expire",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "1. Notion Image URLs Expire",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e0-a2cc-f9166dddfe41",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you upload images directly to Notion, the URLs expire after about an hour. For permanent images, use an external host:\n- Upload to Cloudinary, Imgur, or similar\n- Paste the external URL in Notion\n- These URLs never expire",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you upload images directly to Notion, the URLs expire after about an hour. For permanent images, use an external host:\n- Upload to Cloudinary, Imgur, or similar\n- Paste the external URL in Notion\n- These URLs never expire",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80f9-923a-f3bef36c4c47",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "2. Status Field Casing Matters",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "2. Status Field Casing Matters",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80bc-9451-e53a36000a8d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "My script looked for “Ready to Publish” but Notion had “Ready To Publish” (capital T). Exact string matching caught me off guard. Either normalize in code or be consistent in Notion.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "My script looked for “Ready to Publish” but Notion had “Ready To Publish” (capital T). Exact string matching caught me off guard. Either normalize in code or be consistent in Notion.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-809f-ae1a-dbf3a5e917db",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "3. Keep Manual and Synced Posts Separate",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "3. Keep Manual and Synced Posts Separate",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8019-860e-e7f0f34e9473",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I mark posts with a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I mark posts with a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "source",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "source",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " field:\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " field:\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "source: \"notion\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "source: \"notion\"",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — managed by the sync\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — managed by the sync\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "source: \"manual\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "source: \"manual\"",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — legacy posts, never touched by sync",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — legacy posts, never touched by sync",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8097-8199-e4d523e97817",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This prevents the automation from deleting articles I added before building this system.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This prevents the automation from deleting articles I added before building this system.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a8-befa-defec4448a85",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_3",
+    "heading_3": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "4. The GitHub Actions Free Tier is Generous",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "4. The GitHub Actions Free Tier is Generous",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8035-82f8-f1f67e392ecc",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I was worried about costs. In practice:\n- Sync runs once a week\n- Takes ~30 seconds\n- Monthly usage: ~2 minutes\n- Free tier: 2,000 minutes",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I was worried about costs. In practice:\n- Sync runs once a week\n- Takes ~30 seconds\n- Monthly usage: ~2 minutes\n- Free tier: 2,000 minutes",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80c5-bd13-d3f904807d9e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I’ll never hit the limit with this use case.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I’ll never hit the limit with this use case.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-803f-b640-dbb70474923e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8033-9a3b-e313c9810f54",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Final Workflow",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Final Workflow",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-801b-b4ef-d23af0321552",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "My publishing workflow is now:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "My publishing workflow is now:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-803d-8866-ce2a02d359d3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Write",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Write",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " the article in Notion (my daily tool anyway)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " the article in Notion (my daily tool anyway)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8055-a985-fb939b97df08",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fill in",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fill in",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " the metadata (title, slug, category, excerpt)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " the metadata (title, slug, category, excerpt)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80aa-a51a-c8df6d70fdec",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Set status",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Set status",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " to “Ready to Publish”",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " to “Ready to Publish”",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-808d-b504-d5fbdb7f4353",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Done",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Done",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — the weekly sync picks it up, or I trigger it manually if urgent",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — the weekly sync picks it up, or I trigger it manually if urgent",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8083-b5d2-d40d7df1181d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "No copying, no pasting, no manual updates. Write once, publish automatically.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "No copying, no pasting, no manual updates. Write once, publish automatically.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8049-9a22-d48593881f15",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80e7-826a-e9344df939b2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What’s Next?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What’s Next?",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8025-816e-dbc1a12e0a36",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Future enhancements I’m considering:\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Future enhancements I’m considering:\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "n8n integration",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "n8n integration",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — for more complex workflows (Slack notifications, draft previews)\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — for more complex workflows (Slack notifications, draft previews)\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Reading time calculation",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Reading time calculation",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — auto-generate from content length\n- ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — auto-generate from content length\n- ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "SEO metadata",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "SEO metadata",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — auto-generate meta descriptions from excerpts",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — auto-generate meta descriptions from excerpts",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a4-83ff-e5cff3478852",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "But honestly? The current system does exactly what I need. Sometimes the best automation is the simplest one that actually works.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "But honestly? The current system does exactly what I need. Sometimes the best automation is the simplest one that actually works.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-808e-88d4-db86f31ef5ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-809a-a872-d7112c9d0bf6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This article was written in Notion and automatically published to my website using the system described above. Meta, I know.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This article was written in Notion and automatically published to my website using the system described above. Meta, I know.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-806e-beea-c60cc79c2012",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8076-bee5-e0eb111f56a6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Resources",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Resources",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-803a-a1c1-fb0586fb877d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Notion API Documentation",
+            "link": {
+              "url": "https://developers.notion.com/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Notion API Documentation",
+          "href": "https://developers.notion.com/"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-80a6-a21a-e2cb7eaeb9b2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "GitHub Actions Documentation",
+            "link": {
+              "url": "https://docs.github.com/en/actions"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GitHub Actions Documentation",
+          "href": "https://docs.github.com/en/actions"
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-807a-ac2e-cfc2aae6b4b1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Source code available on request",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Source code available on request",
+          "href": null
+        }
+      ],
+      "color": "default"
+    }
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-8018-97f5-f5f79f8b1934",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {}
+  },
+  {
+    "object": "block",
+    "id": "2ec3856f-5ba5-808e-8d4d-f65ccb6e5a2c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "2ec3856f-5ba5-80a2-a49d-e898647fab9f"
+    },
+    "created_time": "2026-01-18T04:36:00.000Z",
+    "last_edited_time": "2026-01-18T04:36:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "archived": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Tags:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Tags:",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Automation, Notion, GitHub Actions, React, Publishing\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Automation, Notion, GitHub Actions, React, Publishing\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Category:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Category:",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Automation\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Automation\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Read Time:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Read Time:",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " 8 min read",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " 8 min read",
+          "href": null
+        }
+      ],
+      "color": "default"
     }
   }
 ]
