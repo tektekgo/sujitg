@@ -1,5 +1,17 @@
 [
   {
+    "id": "notion-website-publishing-pipeline",
+    "category": "Automation",
+    "title": "Building a Notion-To-Website Publishing Pipeline with GitHub Actions",
+    "excerpt": "How I automated my blog publishing workflow using Notion as a CMS, GitHub Actions for orchestration, and React for rendering.",
+    "date": "Jan 2026",
+    "readTime": "8 min read",
+    "link": null,
+    "source": "notion",
+    "notionId": "2ec3856f-5ba5-80a2-a49d-e898647fab9f",
+    "hasContent": true
+  },
+  {
     "id": "ai-for-finance-professional",
     "category": "AI",
     "title": "The Intelligent Edge: An Introduction to AI for the Modern Finance Professional",
