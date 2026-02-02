@@ -65,6 +65,7 @@ export const Contact = () => {
           </Card>
         </div>
 
+        {/* Resume download card - hidden for now
         <div className="text-center animate-fade-in" style={{ animationDelay: "0.2s" }}>
           <Card className="inline-block border-primary-foreground/20 bg-primary-foreground/10 backdrop-blur-sm">
             <CardContent className="p-6">
@@ -84,6 +85,7 @@ export const Contact = () => {
             </CardContent>
           </Card>
         </div>
+        */}
       </div>
     </section>
   );
