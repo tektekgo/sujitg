@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Download, Linkedin, Mail } from "lucide-react";
 import headshot from "@/assets/headshot.jpg";
 
@@ -36,16 +37,23 @@ export const Hero = () => {
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-6">
-              <Button 
-                size="lg"
-                className="bg-primary text-primary-foreground hover:bg-primary-dark shadow-lg hover:shadow-primary transition-all duration-300"
-                asChild
-              >
-                <a href="/resume/SujitGangadharan.pdf" download>
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Resume
-                </a>
-              </Button>
+              <TooltipProvider>
+                <Tooltip>
+                  <TooltipTrigger asChild>
+                    <Button 
+                      size="lg"
+                      disabled
+                      className="bg-primary/60 text-primary-foreground/80 shadow-lg cursor-not-allowed transition-all duration-300"
+                    >
+                      <Download className="mr-2 h-5 w-5" />
+                      Download Resume
+                    </Button>
+                  </TooltipTrigger>
+                  <TooltipContent className="bg-card text-card-foreground border-primary/30">
+                    <p>Coming Soon</p>
+                  </TooltipContent>
+                </Tooltip>
+              </TooltipProvider>
               
               <Button 
                 size="lg"
