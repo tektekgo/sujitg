@@ -1,5 +1,17 @@
 [
   {
+    "id": "OpenClaw on Proxmox with Tailscale",
+    "category": "AI",
+    "title": "🦞 How I Set Up OpenClaw Securely on Proxmox Using Tailscale (No Public Exposure)",
+    "excerpt": "A practical walkthrough of running OpenClaw on a Proxmox VM and accessing it securely over Tailscale, using only built-in platform features and no public exposure.",
+    "date": "Feb 2026",
+    "readTime": "5 min read",
+    "link": null,
+    "source": "notion",
+    "notionId": "2ec3856f-5ba5-80df-b029-d67a39b09ff8",
+    "hasContent": true
+  },
+  {
     "id": "notion-website-publishing-pipeline",
     "category": "Automation",
     "title": "Building a Notion-To-Website Publishing Pipeline with GitHub Actions",
@@ -21,18 +33,6 @@
     "link": null,
     "source": "notion",
     "notionId": "2e93856f-5ba5-8006-8187-f2a9af9d8406",
-    "hasContent": true
-  },
-  {
-    "id": "OpenClaw on Proxmox with Tailscale",
-    "category": "AI",
-    "title": "How I Set Up OpenClaw Securely on Proxmox Using Tailscale (No Public Exposure)",
-    "excerpt": "A practical walkthrough of running OpenClaw on a Proxmox VM and accessing it securely over Tailscale, using only built-in platform features and no public exposure.",
-    "date": "Feb 2026",
-    "readTime": "5 min read",
-    "link": null,
-    "source": "notion",
-    "notionId": "2ec3856f-5ba5-80df-b029-d67a39b09ff8",
     "hasContent": true
   },
   {
