@@ -1,6 +1,6 @@
 [
   {
-    "id": "OpenClaw on Proxmox with Tailscale",
+    "id": "openclaw-on-proxmox-with-tailscale",
     "category": "AI",
     "title": "🦞 How I Set Up OpenClaw Securely on Proxmox Using Tailscale (No Public Exposure)",
     "excerpt": "A practical walkthrough of running OpenClaw on a Proxmox VM and accessing it securely over Tailscale, using only built-in platform features and no public exposure.",
