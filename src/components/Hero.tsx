@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import { Download, Linkedin, Mail } from "lucide-react";
 import headshot from "@/assets/headshot.jpg";
 
@@ -27,33 +26,39 @@ export const Hero = () => {
               Sujit Gangadharan
             </h1>
             <h2 className="text-2xl lg:text-3xl font-semibold text-primary-foreground/90">
-              Enterprise Technology Executive
+              Fractional CIO & Advisor for Cloud, AI & Transformation
             </h2>
-            <p className="text-lg lg:text-xl text-primary-foreground/80 max-w-3xl leading-relaxed">
-              Visionary, business-driven IT executive with 30+ years of experience leading enterprise 
-              technology strategy, global team scaling, and digital transformation. Proven success aligning 
-              technology with business growth, driving cloud-first adoption, and delivering AI-powered, 
-              secure, and scalable solutions in regulated industries.
+            <p className="text-xl lg:text-2xl font-medium text-primary-foreground/95 max-w-3xl leading-tight">
+              I help enterprises modernize, adopt AI safely, and de-risk digital transformation—with measurable outcomes.
+            </p>
+            <p className="text-lg text-primary-foreground/80 max-w-3xl leading-relaxed">
+              30+ years leading technology strategy and global teams. Proven results: 30% infra cost reduction, 
+              50% faster deployments, 99.99% uptime—in regulated industries from insurance to financial services.
             </p>
             
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start pt-6">
-              <TooltipProvider>
-                <Tooltip>
-                  <TooltipTrigger asChild>
-                    <Button 
-                      size="lg"
-                      disabled
-                      className="bg-primary/60 text-primary-foreground/80 shadow-lg cursor-not-allowed transition-all duration-300"
-                    >
-                      <Download className="mr-2 h-5 w-5" />
-                      Download Resume
-                    </Button>
-                  </TooltipTrigger>
-                  <TooltipContent className="bg-card text-card-foreground border-primary/30">
-                    <p>Coming Soon</p>
-                  </TooltipContent>
-                </Tooltip>
-              </TooltipProvider>
+              <Button 
+                size="lg"
+                className="bg-primary text-primary-foreground hover:bg-primary-dark shadow-lg hover:shadow-primary transition-all duration-300"
+                asChild
+              >
+                <a href="#contact">
+                  <Mail className="mr-2 h-5 w-5" />
+                  Book a strategy call
+                </a>
+              </Button>
+              
+              <Button 
+                size="lg"
+                variant="outline"
+                className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary"
+                asChild
+              >
+                <a href="/resume/SujitGangadharan.pdf" download>
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Resume
+                </a>
+              </Button>
               
               <Button 
                 size="lg"
@@ -64,18 +69,6 @@ export const Hero = () => {
                 <a href="https://www.linkedin.com/in/sujitg/" target="_blank" rel="noopener noreferrer">
                   <Linkedin className="mr-2 h-5 w-5" />
                   LinkedIn
-                </a>
-              </Button>
-              
-              <Button 
-                size="lg"
-                variant="outline"
-                className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary"
-                asChild
-              >
-                <a href="mailto:gsujit@gmail.com">
-                  <Mail className="mr-2 h-5 w-5" />
-                  Contact
                 </a>
               </Button>
             </div>

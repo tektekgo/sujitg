@@ -1,0 +1,111 @@
+{
+  "//": "Brand color tokens for sujitg.com. HSL values are the source of truth from src/index.css; hex values are approximate conversions for tools that prefer hex.",
+  "background": {
+    "hex": "#07111b",
+    "hsl": "210 60% 9%"
+  },
+  "foreground": {
+    "hex": "#f4f7fa",
+    "hsl": "210 20% 95%"
+  },
+  "card": {
+    "hex": "#0c1824",
+    "hsl": "210 50% 12%"
+  },
+  "cardForeground": {
+    "hex": "#f4f7fa",
+    "hsl": "210 20% 95%"
+  },
+  "popover": {
+    "hex": "#0c1824",
+    "hsl": "210 50% 12%"
+  },
+  "popoverForeground": {
+    "hex": "#f4f7fa",
+    "hsl": "210 20% 95%"
+  },
+  "primary": {
+    "hex": "#1f5fa8",
+    "hsl": "210 60% 45%"
+  },
+  "primaryForeground": {
+    "hex": "#ffffff",
+    "hsl": "0 0% 100%"
+  },
+  "primaryLight": {
+    "hex": "#0c263f",
+    "hsl": "210 60% 20%"
+  },
+  "primaryDark": {
+    "hex": "#4f8fd6",
+    "hsl": "210 70% 60%"
+  },
+  "secondary": {
+    "hex": "#0e1c2b",
+    "hsl": "210 50% 14%"
+  },
+  "secondaryForeground": {
+    "hex": "#f4f7fa",
+    "hsl": "210 20% 95%"
+  },
+  "muted": {
+    "hex": "#111c29",
+    "hsl": "210 45% 18%"
+  },
+  "mutedForeground": {
+    "hex": "#9aa4b4",
+    "hsl": "210 15% 65%"
+  },
+  "accent": {
+    "hex": "#4aa8ff",
+    "hsl": "210 100% 60%"
+  },
+  "accentForeground": {
+    "hex": "#ffffff",
+    "hsl": "0 0% 100%"
+  },
+  "border": {
+    "hex": "#1c2a3a",
+    "hsl": "210 40% 22%"
+  },
+  "input": {
+    "hex": "#1c2a3a",
+    "hsl": "210 40% 22%"
+  },
+  "ring": {
+    "hex": "#1f5fa8",
+    "hsl": "210 60% 45%"
+  },
+  "destructive": {
+    "hex": "#e5484d",
+    "hsl": "0 84.2% 60.2%"
+  },
+  "destructiveForeground": {
+    "hex": "#ffffff",
+    "hsl": "0 0% 100%"
+  },
+  "semantic": {
+    "success": {
+      "hex": "#2bb673",
+      "note": "Not yet explicitly defined in CSS; chosen to complement primary palette."
+    },
+    "warning": {
+      "hex": "#f5a623",
+      "note": "Not yet explicitly defined in CSS; used for cautionary states."
+    },
+    "danger": {
+      "hex": "#e5484d",
+      "note": "Alias of destructive."
+    }
+  },
+  "gradients": {
+    "primary": "linear-gradient(135deg, hsl(210 60% 45%), hsl(210 70% 55%))",
+    "hero": "linear-gradient(135deg, hsl(210 60% 12%) 0%, hsl(210 70% 8%) 100%)",
+    "subtle": "linear-gradient(180deg, hsl(210 50% 14%) 0%, hsl(210 60% 9%) 100%)"
+  },
+  "shadows": {
+    "primary": "0 10px 40px -10px hsl(210 60% 45% / 0.4)",
+    "glow": "0 0 60px hsl(210 60% 45% / 0.5)",
+    "card": "0 4px 20px -4px hsl(210 60% 5% / 0.5)"
+  }
+}

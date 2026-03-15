@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import { Button } from "@/components/ui/button";
 import { Mic, Calendar, MapPin, Award, ExternalLink, Download, Youtube } from "lucide-react";
 import speakingHero from "@/assets/speaking-hero.jpg";
 import gsdcCertificate from "@/assets/gsdc-certificate.png";
@@ -58,7 +59,7 @@ const engagements = [
 
 export const Speaking = () => {
   return (
-    <section className="py-24 bg-background relative overflow-hidden" id="speaking">
+    <section className="py-24 bg-background relative overflow-hidden scroll-mt-20 lg:scroll-mt-24" id="speaking">
       <div className="absolute inset-0 bg-gradient-to-b from-secondary to-background"></div>
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik00MCAxMGwxMCAyMC0xMCAyMC0xMC0yMHoiIHN0cm9rZT0iIzMzNjY5OSIgc3Ryb2tlLW9wYWNpdHk9Ii4wMyIvPjwvZz48L3N2Zz4=')] opacity-20"></div>
       
@@ -67,9 +68,15 @@ export const Speaking = () => {
           <h2 className="text-4xl lg:text-5xl font-bold text-foreground mb-4">
             Speaking <span className="text-gradient">Engagements</span>
           </h2>
-          <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Sharing insights on automation, cloud transformation, and enterprise technology leadership
+          <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-6">
+            Keynotes, workshops, and panels on cloud, AI, automation, and digital transformation—aligned with the same topics I advise on.
           </p>
+          <Button size="lg" className="bg-primary text-primary-foreground shadow-lg hover:bg-primary-dark hover:shadow-primary" asChild>
+            <a href="#contact">
+              <Mic className="h-4 w-4 mr-2" />
+              Invite me to speak
+            </a>
+          </Button>
         </div>
 
         <div className="max-w-6xl mx-auto mb-12">

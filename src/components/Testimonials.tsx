@@ -7,6 +7,7 @@ const testimonials = [
     name: "Sarah Mitchell",
     role: "Chief Information Officer",
     company: "Fortune 500 Insurance Company",
+    headline: "30% cost reduction and a step-change in delivery speed.",
     text: "Sujit's ability to align technology strategy with business objectives is unparalleled. He led our cloud transformation initiative that resulted in a 30% cost reduction while significantly improving our infrastructure delivery speed.",
     linkedIn: "#"
   },
@@ -14,6 +15,7 @@ const testimonials = [
     name: "James Rodriguez",
     role: "VP of Technology",
     company: "Financial Services Firm",
+    headline: "50% faster deployments and 99.99% uptime—game-changing.",
     text: "Working with Sujit on our DevOps transformation was a game-changer. His expertise in building high-performing global teams and implementing automation frameworks delivered measurable results - 50% faster deployments and 99.99% uptime.",
     linkedIn: "#"
   },
@@ -21,6 +23,7 @@ const testimonials = [
     name: "Emily Chen",
     role: "Director of Engineering",
     company: "Technology Company",
+    headline: "Seamless M&A integration without losing business continuity.",
     text: "Sujit's leadership in M&A technology integration is exceptional. He seamlessly guided our teams through complex system consolidations while maintaining business continuity and driving innovation.",
     linkedIn: "#"
   },
@@ -28,6 +31,7 @@ const testimonials = [
     name: "Michael Thompson",
     role: "Board Member",
     company: "Enterprise Technology Advisory",
+    headline: "Rare mix of deep technical expertise and business acumen.",
     text: "As a technology executive and strategic advisor, Sujit brings a rare combination of deep technical expertise and business acumen. His insights on AI integration and digital transformation have been invaluable to our organization.",
     linkedIn: "#"
   }
@@ -35,7 +39,7 @@ const testimonials = [
 
 export const Testimonials = () => {
   return (
-    <section className="py-24 bg-muted relative overflow-hidden" id="testimonials">
+    <section className="py-24 bg-muted relative overflow-hidden scroll-mt-20 lg:scroll-mt-24" id="testimonials">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxjaXJjbGUgY3g9IjMwIiBjeT0iMzAiIHI9IjIiIGZpbGw9IiMzMzY2OTkiIGZpbGwtb3BhY2l0eT0iLjA1Ii8+PC9nPjwvc3ZnPg==')] opacity-40"></div>
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
@@ -61,8 +65,10 @@ export const Testimonials = () => {
                   <Card className="h-full border-border bg-card shadow-card hover:shadow-primary transition-all duration-300">
                     <CardContent className="p-8">
                       <Quote className="h-10 w-10 text-primary mb-4 opacity-50" />
-                      
-                      <p className="text-lg text-card-foreground leading-relaxed mb-6 italic">
+                      <p className="text-xl font-semibold text-card-foreground leading-snug mb-4 border-l-2 border-primary pl-4">
+                        {testimonial.headline}
+                      </p>
+                      <p className="text-lg text-muted-foreground leading-relaxed mb-6 italic">
                         "{testimonial.text}"
                       </p>
                       

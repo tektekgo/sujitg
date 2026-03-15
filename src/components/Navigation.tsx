@@ -5,12 +5,12 @@ import sgLogo from "@/assets/sg-logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
-  { label: "Expertise", href: "#expertise" },
+  { label: "How I help", href: "#expertise" },
   { label: "Projects", href: "#projects" },
   { label: "Speaking", href: "#speaking" },
   { label: "Testimonials", href: "#testimonials" },
   { label: "Blog", href: "#blog" },
-  { label: "Contact", href: "#contact" },
+  { label: "Let's talk", href: "#contact" },
 ];
 
 export const Navigation = () => {

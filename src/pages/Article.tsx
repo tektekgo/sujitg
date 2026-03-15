@@ -34,11 +34,21 @@ import headshot from "@/assets/headshot.jpg";
 // Author info - could be moved to a config file
 const author = {
   name: "Sujit Gangadharan",
-  title: "Enterprise Technology Executive",
+  title: "Fractional CIO & Advisor for Cloud, AI & Transformation",
   bio: "Leading digital transformation initiatives and building high-performing technology teams across global enterprises.",
   linkedin: "https://www.linkedin.com/in/sujitg/",
   image: headshot
 };
+
+function getAudienceForCategory(category: string): string {
+  switch (category) {
+    case "AI": return "Leaders exploring AI strategy and adoption";
+    case "Cloud": return "CIOs and tech leaders in regulated industries";
+    case "Leadership": return "VPs and directors scaling global teams";
+    case "Automation": return "DevOps and platform leaders";
+    default: return `${category} leaders and practitioners`;
+  }
+}
 
 export default function Article() {
   const { slug } = useParams<{ slug: string }>();
@@ -148,9 +158,13 @@ export default function Article() {
                 {post.title}
               </h1>
 
-              <p className="text-xl text-muted-foreground mb-6">
+              <p className="text-xl text-muted-foreground mb-4">
                 {post.excerpt}
               </p>
+              <div className="mb-6 rounded-lg border border-primary/30 bg-primary/5 px-4 py-3 text-sm">
+                <span className="font-medium text-foreground">Who this is for: </span>
+                <span className="text-muted-foreground">{getAudienceForCategory(post.category)}</span>
+              </div>
 
               <div className="flex items-center gap-6 text-sm text-muted-foreground">
                 <div className="flex items-center gap-2">

@@ -4,16 +4,24 @@ import { Mail, Linkedin, Download, ExternalLink } from "lucide-react";
 
 export const Contact = () => {
   return (
-    <section className="py-24 bg-gradient-hero relative overflow-hidden" id="contact">
+    <section className="py-24 bg-gradient-hero relative overflow-hidden scroll-mt-20 lg:scroll-mt-24" id="contact">
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHZpZXdCb3g9IjAgMCA2MCA2MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGQ9Ik0zNiAxOGMzLjMxNCAwIDYgMi42ODYgNiA2cy0yLjY4NiA2LTYgNi02LTIuNjg2LTYtNiAyLjY4Ni02IDYtNnoiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLW9wYWNpdHk9Ii4xIi8+PC9nPjwvc3ZnPg==')] opacity-10"></div>
       
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary-foreground mb-4">
-            Let's Connect
+            Let's Explore Your Transformation Roadmap
           </h2>
-          <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto">
-            Ready to discuss technology leadership, digital transformation, or speaking opportunities?
+          <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto mb-6">
+            A short conversation can clarify whether we're a fit. Typical next steps:
+          </p>
+          <ul className="text-lg text-primary-foreground/80 max-w-2xl mx-auto list-disc list-inside text-left space-y-2 mb-8">
+            <li>Advisory and fractional leadership for cloud, AI, or DevOps</li>
+            <li>Assessments and roadmaps (readiness, security, automation)</li>
+            <li>Speaking and workshops for your event or team</li>
+          </ul>
+          <p className="text-sm text-primary-foreground/70 max-w-xl mx-auto">
+            I respond within 1–2 business days. Your information stays confidential—I never share it.
           </p>
         </div>
 
@@ -50,7 +58,7 @@ export const Contact = () => {
                 Email
               </h3>
               <p className="text-primary-foreground/70 mb-4">
-                Send me a message directly
+                Best for strategy calls and consulting inquiries
               </p>
               <Button 
                 className="w-full bg-primary-foreground text-primary hover:bg-primary-foreground/90"
@@ -70,7 +78,7 @@ export const Contact = () => {
           <Card className="inline-block border-primary-foreground/20 bg-primary-foreground/10 backdrop-blur-sm">
             <CardContent className="p-6">
               <p className="text-primary-foreground mb-4 text-lg">
-                Want to learn more about my experience and qualifications?
+                Prefer a one-pager? Download my resume for a quick overview.
               </p>
               <Button 
                 size="lg"

@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-primary mb-2">Sujit Gangadharan</h3>
             <p className="text-muted-foreground">
-              Enterprise Technology Executive | Digital Transformation Leader
+              Fractional CIO & Advisor for Cloud, AI & Transformation
             </p>
           </div>
 

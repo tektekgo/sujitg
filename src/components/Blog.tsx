@@ -20,6 +20,16 @@ interface BlogPost {
 
 const categories = ["All", "AI", "Automation", "Cloud", "Leadership", "Innovation"];
 
+function getAudienceForCategory(category: string): string {
+  switch (category) {
+    case "AI": return "Leaders exploring AI strategy and adoption";
+    case "Cloud": return "CIOs and tech leaders in regulated industries";
+    case "Leadership": return "VPs and directors scaling global teams";
+    case "Automation": return "DevOps and platform leaders";
+    default: return `${category} leaders and practitioners`;
+  }
+}
+
 export const Blog = () => {
   const [selectedCategory, setSelectedCategory] = useState("All");
 
@@ -28,7 +38,7 @@ export const Blog = () => {
     : blogPosts.filter(post => post.category === selectedCategory);
 
   return (
-    <section className="py-24 bg-background relative overflow-hidden" id="blog">
+    <section className="py-24 bg-background relative overflow-hidden scroll-mt-20 lg:scroll-mt-24" id="blog">
       <div className="absolute inset-0 bg-gradient-to-b from-secondary/50 to-background"></div>
       <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAiIGhlaWdodD0iODAiIHZpZXdCb3g9IjAgMCA4MCA4MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxyZWN0IHg9IjIwIiB5PSIyMCIgd2lkdGg9IjQwIiBoZWlnaHQ9IjQwIiBzdHJva2U9IiMzMzY2OTkiIHN0cm9rZS1vcGFjaXR5PSIuMDMiLz48L2c+PC9zdmc+')] opacity-20"></div>
       <div className="container mx-auto px-6 relative z-10">
@@ -37,7 +47,7 @@ export const Blog = () => {
             Insights & <span className="text-gradient">Articles</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Perspectives on technology leadership, automation, and digital transformation
+            Practical perspectives on AI, cloud, automation, and leadership—for technology leaders and teams driving transformation.
           </p>
         </div>
 
@@ -74,6 +84,9 @@ export const Blog = () => {
 
                 <p className="text-muted-foreground mb-4 flex-grow leading-relaxed line-clamp-3">
                   {post.excerpt}
+                </p>
+                <p className="text-xs font-medium text-primary/90 mb-4">
+                  For: {getAudienceForCategory(post.category)}
                 </p>
 
                 <div className="flex items-center justify-between text-sm text-muted-foreground mb-4">
