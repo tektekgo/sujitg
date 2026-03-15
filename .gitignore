@@ -20,6 +20,11 @@ dist-ssr
 .env.*.local
 *.local
 
+# Google Cloud / GCP service account keys (never commit - contain private keys)
+docs/brand-assets/invest-committee-genie-94abe5163a3c.json
+*service*account*.json
+*credentials*.json
+
 # Test coverage
 coverage/
 
