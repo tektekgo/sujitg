@@ -15,7 +15,14 @@ const engagements = [
     location: "Global Virtual Event",
     featured: true,
     certificate: gsdcCertificate,
-    badge: gsdcBadge
+    badge: gsdcBadge,
+    links: [
+      {
+        label: "Watch recording",
+        url: "https://www.youtube.com/watch?v=qTxl9kpgOyE&t=624",
+        type: "youtube"
+      }
+    ]
   },
   {
     event: "Autocon 4 - Leadership Track",

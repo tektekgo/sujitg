@@ -3,22 +3,10 @@ import { Card, CardContent } from "@/components/ui/card";
 
 const expertiseAreas = [
   {
-    icon: Cloud,
-    title: "Cloud & Infrastructure",
-    description: "Design and lead your cloud migration roadmap with Terraform, Ansible, or visual IaC—so you move fast without betting the business.",
-    outcome: "Typical outcome: 30% infra cost reduction and 4–5x delivery speed within 12–18 months.",
-  },
-  {
-    icon: Brain,
-    title: "AI Integration",
-    description: "Define AI strategy, governance, and safe rollout—from custom GPTs to enterprise automation—so AI drives value without unnecessary risk.",
-    outcome: "Typical outcome: Clear AI roadmap, use-case prioritization, and deployment guardrails.",
-  },
-  {
-    icon: Shield,
-    title: "Cybersecurity & Compliance",
-    description: "Align security and risk posture with regulatory requirements. I help insurance and financial services leaders close gaps and pass audits.",
-    outcome: "Typical outcome: Risk-based roadmap and audit-ready controls without over-investing.",
+    icon: Users,
+    title: "Global Team Leadership",
+    description: "Scale and structure technology teams across regions. I advise on org design, C-level alignment, and M&A tech integration.",
+    outcome: "Typical outcome: Clear roles, accountability, and a team that can execute at scale.",
   },
   {
     icon: Zap,
@@ -27,16 +15,28 @@ const expertiseAreas = [
     outcome: "Typical outcome: 50% faster deployments and 99.99% uptime where it matters.",
   },
   {
-    icon: Users,
-    title: "Global Team Leadership",
-    description: "Scale and structure technology teams across regions. I advise on org design, C-level alignment, and M&A tech integration.",
-    outcome: "Typical outcome: Clear roles, accountability, and a team that can execute at scale.",
+    icon: Brain,
+    title: "AI Integration",
+    description: "Define AI strategy, governance, and safe rollout—from custom GPTs to enterprise automation—so AI drives value without unnecessary risk.",
+    outcome: "Typical outcome: Clear AI roadmap, use-case prioritization, and deployment guardrails.",
+  },
+  {
+    icon: Cloud,
+    title: "Cloud & Infrastructure",
+    description: "Design and lead your cloud migration roadmap with Terraform, Ansible, or visual IaC—so you move fast without betting the business.",
+    outcome: "Typical outcome: 30% infra cost reduction and 4–5x delivery speed within 12–18 months.",
   },
   {
     icon: TrendingUp,
     title: "Digital Transformation",
     description: "Partner with C-suite and Boards on technology modernization in regulated industries—strategy, roadmap, and execution oversight.",
     outcome: "Typical outcome: A credible, board-ready plan and a path from legacy to cloud-first.",
+  },
+  {
+    icon: Shield,
+    title: "Cybersecurity & Compliance",
+    description: "Align security and risk posture with regulatory requirements. I help insurance and financial services leaders close gaps and pass audits.",
+    outcome: "Typical outcome: Risk-based roadmap and audit-ready controls without over-investing.",
   },
 ];
 
@@ -50,7 +50,7 @@ export const Expertise = () => {
             How I <span className="text-gradient">Help</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Advisory and hands-on leadership across cloud, security, AI, and digital transformation—focused on outcomes you can measure.
+            Global leadership and digital transformation, with automation and AI at the center—helping organizations navigate rapid change and adopt technology with confidence.
           </p>
         </div>
         

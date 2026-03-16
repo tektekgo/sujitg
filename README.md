@@ -1,73 +1,62 @@
-# Welcome to your Lovable project
+# sujitg.com
 
-## Project info
+Personal brand site for Sujit Gangadharan — Fractional CIO & Advisor for Cloud, AI & Transformation. Live at **[sujitg.com](https://sujitg.com)**.
 
-**URL**: https://lovable.dev/projects/21ad1dd9-053f-4ae9-b70d-e36c91624cfa
+## Tech stack
 
-## How can I edit this code?
+- **Vite** + **React** + **TypeScript**
+- **Tailwind CSS** + **shadcn/ui**
+- **React Router** for client-side routing
 
-There are several ways of editing your application.
+## Quick start (local development)
 
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/21ad1dd9-053f-4ae9-b70d-e36c91624cfa) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
+git clone https://github.com/tektekgo/sujitg.git
+cd sujitg
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+Open http://localhost:5173 (or the URL Vite prints). Edit files in `src/`; the dev server reloads automatically.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Build and deploy
 
-**Use GitHub Codespaces**
+**The live site is built and deployed by Vercel**, not by a manual publish step.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- **Source:** This repo, branch `main`.
+- **Trigger:** Push to `main` → Vercel runs `npm install` and `npm run build`, then serves the output.
+- **Domain:** sujitg.com is connected to the Vercel project.
 
-## What technologies are used for this project?
+For the full picture (Vercel, Notion sync, troubleshooting), see **[docs/build-and-deploy.md](docs/build-and-deploy.md)**.
 
-This project is built with:
+## Developer commands
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+| Command | Purpose |
+|---------|---------|
+| `npm run dev` | Start dev server (local development). |
+| `npm run build` | Production build (output in `dist/`). Same as Vercel. |
+| `npm run preview` | Serve `dist/` locally to test production build. |
+| `npm run lint` | Run ESLint. |
 
-## How can I deploy this project?
+## How you can work on the site
 
-Simply open [Lovable](https://lovable.dev/projects/21ad1dd9-053f-4ae9-b70d-e36c91624cfa) and click on Share -> Publish.
+You can use either or both:
 
-## Can I connect a custom domain to my Lovable project?
+1. **Cursor (or another IDE)**  
+   Clone the repo, edit code locally, run `npm run dev`, then commit and push to `main`. Pushing triggers a Vercel deploy.
 
-Yes, you can!
+2. **Lovable**  
+   Use [Lovable](https://lovable.dev/projects/21ad1dd9-053f-4ae9-b70d-e36c91624cfa) for design-led changes. Lovable commits to this same repo; when it pushes to `main`, Vercel deploys as usual.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+There is only one deploy path: **push to `main` → Vercel**. The site is not published via Lovable’s “Publish” for production; that’s handled by Vercel.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## Blog content (Notion)
+
+Articles can be managed in Notion and synced into the repo. A GitHub Action runs the sync (weekly or manually). See [docs/build-and-deploy.md#content-pipeline-notion--site](docs/build-and-deploy.md#content-pipeline-notion--site) and [docs/article-draft-notion-automation.md](docs/article-draft-notion-automation.md).
+
+## Project structure
+
+- `src/` — React app (components, pages, data, assets).
+- `scripts/` — Notion sync and other tooling.
+- `docs/` — Documentation (build/deploy, brand, articles).
+- `vercel.json` — SPA rewrites so client-side routes work on Vercel.
