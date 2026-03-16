@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Download, Linkedin, Mail } from "lucide-react";
+import { Linkedin, Mail } from "lucide-react";
 import headshot from "@/assets/headshot.jpg";
 
 export const Hero = () => {
@@ -45,18 +45,6 @@ export const Hero = () => {
                 <a href="#contact">
                   <Mail className="mr-2 h-5 w-5" />
                   Book a strategy call
-                </a>
-              </Button>
-              
-              <Button 
-                size="lg"
-                variant="outline"
-                className="border-primary/50 text-foreground hover:bg-primary/10 hover:border-primary"
-                asChild
-              >
-                <a href="/resume/SujitGangadharan.pdf" download>
-                  <Download className="mr-2 h-5 w-5" />
-                  Download Resume
                 </a>
               </Button>
               
