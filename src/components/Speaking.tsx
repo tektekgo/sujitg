@@ -1,6 +1,11 @@
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import {
+  Dialog,
+  DialogContent,
+} from "@/components/ui/dialog";
 import { Mic, Calendar, MapPin, Award, ExternalLink, Download, Youtube } from "lucide-react";
 import speakingHero from "@/assets/speaking-hero.jpg";
 import gsdcCertificate from "@/assets/gsdc-certificate.png";
@@ -65,6 +70,8 @@ const engagements = [
 ];
 
 export const Speaking = () => {
+  const [lightbox, setLightbox] = useState<{ src: string; alt: string } | null>(null);
+
   return (
     <section className="py-24 bg-background relative overflow-hidden scroll-mt-20 lg:scroll-mt-24" id="speaking">
       <div className="absolute inset-0 bg-gradient-to-b from-secondary to-background"></div>
@@ -185,21 +192,31 @@ export const Speaking = () => {
                 
                 {engagement.certificate && engagement.badge && (
                   <div className="flex gap-3 mb-4">
-                    <div className="group/cert relative cursor-pointer">
+                    <button
+                      type="button"
+                      onClick={() => setLightbox({ src: engagement.certificate, alt: "Speaker Certificate" })}
+                      className="group/cert relative rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                      aria-label="View speaker certificate"
+                    >
                       <img 
                         src={engagement.certificate} 
                         alt="Speaker Certificate"
-                        className="h-16 w-16 object-cover rounded-lg shadow-sm border border-border hover:shadow-glow transition-all"
+                        className="h-20 w-20 object-cover rounded-lg shadow-sm border border-border hover:shadow-glow transition-all"
                       />
-                      <Award className="absolute -top-1 -right-1 h-5 w-5 text-primary" />
-                    </div>
-                    <div className="group/badge relative cursor-pointer">
+                      <Award className="absolute -top-1 -right-1 h-5 w-5 text-primary pointer-events-none" />
+                    </button>
+                    <button
+                      type="button"
+                      onClick={() => setLightbox({ src: engagement.badge, alt: "Knowledge Advisor Badge" })}
+                      className="group/badge relative rounded-lg focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2"
+                      aria-label="View knowledge advisor badge"
+                    >
                       <img 
                         src={engagement.badge} 
                         alt="Knowledge Advisor Badge"
-                        className="h-16 w-16 object-contain rounded-lg hover:scale-110 transition-transform"
+                        className="h-20 w-20 object-contain rounded-lg hover:scale-110 transition-transform"
                       />
-                    </div>
+                    </button>
                   </div>
                 )}
                 
@@ -245,6 +262,30 @@ export const Speaking = () => {
           ))}
         </div>
       </div>
+
+      <Dialog open={!!lightbox} onOpenChange={(open) => !open && setLightbox(null)}>
+        <DialogContent
+          className="max-w-4xl w-[95vw] p-2 border-0 bg-background/95 shadow-none overflow-visible"
+          onCloseAutoFocus={(e) => e.preventDefault()}
+        >
+          {lightbox && (
+            <button
+              type="button"
+              onClick={() => setLightbox(null)}
+              className="block w-full focus:outline-none focus:ring-0 rounded-lg overflow-hidden"
+              aria-label="Close"
+            >
+              <img
+                src={lightbox.src}
+                alt={lightbox.alt}
+                className="max-h-[90vh] max-w-full w-auto h-auto object-contain mx-auto rounded-lg shadow-2xl cursor-pointer"
+                onClick={(e) => e.stopPropagation()}
+                draggable={false}
+              />
+            </button>
+          )}
+        </DialogContent>
+      </Dialog>
     </section>
   );
 };
