@@ -1,0 +1,4122 @@
+[
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80c9-963e-e5a2e69bf6a4",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:14:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_1",
+    "heading_1": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Problem: Years of Notes, Zero Structure",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Problem: Years of Notes, Zero Structure",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80ed-ab7a-c71a280c64db",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "If you use Microsoft OneNote long enough, you know the feeling. It starts organized. One notebook, a few sections, everything neatly named. Then life happens. You start a new project — new section. You save a password somewhere — new page. You take a meeting note — wherever. Three years later, you have 200+ pages scattered across dozens of sections, with no consistent structure, no naming convention, and a vague anxiety every time you open the app.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "If you use Microsoft OneNote long enough, you know the feeling. It starts organized. One notebook, a few sections, everything neatly named. Then life happens. You start a new project — new section. You save a password somewhere — new page. You take a meeting note — wherever. Three years later, you have 200+ pages scattered across dozens of sections, with no consistent structure, no naming convention, and a vague anxiety every time you open the app.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8086-b840-fb7d832f28c6",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "That was me. I had a OneNote notebook that had become a digital junk drawer. I knew everything was ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "That was me. I had a OneNote notebook that had become a digital junk drawer. I knew everything was ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "in there",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "in there",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", but finding anything required either a lucky search or memory I no longer had.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", but finding anything required either a lucky search or memory I no longer had.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-803d-9951-ee7d47853877",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I wanted to fix it. The catch: reorganizing 200+ pages manually is the kind of task that exists at the intersection of \"important\" and \"I'll do it later.\" It never gets done.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I wanted to fix it. The catch: reorganizing 200+ pages manually is the kind of task that exists at the intersection of \"important\" and \"I'll do it later.\" It never gets done.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80c4-99bf-fb615399184a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "So I asked myself: what if my AI assistant could do this for me?",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "So I asked myself: what if my AI assistant could do this for me?",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-808e-abb0-ce6e236b7f57",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8066-8a79-e7f9475ce5f0",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Enter MCP: The Missing Bridge Between AI and Your Apps",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Enter MCP: The Missing Bridge Between AI and Your Apps",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80e0-86dd-f4a9bf476647",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Most people know that AI tools like Claude can answer questions, write code, or summarize documents. But they operate inside a conversation window — they can't reach out and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Most people know that AI tools like Claude can answer questions, write code, or summarize documents. But they operate inside a conversation window — they can't reach out and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "do",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "do",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " things in your apps unless they're given the right tools.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " things in your apps unless they're given the right tools.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-801b-b228-de756ceef10c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "That's exactly what ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "That's exactly what ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "MCP (Model Context Protocol)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "MCP (Model Context Protocol)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " solves.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " solves.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80c2-ade2-eeacf35db54f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "MCP is an open standard created by Anthropic that lets AI assistants like Claude connect to external tools and services — not through a web browser, but through a direct, structured interface. Think of it like a universal plug: you build an MCP server for your app or service, and any MCP-compatible AI client (Claude Desktop, Cursor, Zed, Continue.dev) can use it immediately.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "MCP is an open standard created by Anthropic that lets AI assistants like Claude connect to external tools and services — not through a web browser, but through a direct, structured interface. Think of it like a universal plug: you build an MCP server for your app or service, and any MCP-compatible AI client (Claude Desktop, Cursor, Zed, Continue.dev) can use it immediately.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8029-8a23-e21b8c6a0fb3",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "When you connect an MCP server to Claude, Claude can call its tools the same way a developer would call an API — programmatically, precisely, and in sequence. So instead of copying and pasting page content by hand, I could tell Claude: ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "When you connect an MCP server to Claude, Claude can call its tools the same way a developer would call an API — programmatically, precisely, and in sequence. So instead of copying and pasting page content by hand, I could tell Claude: ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "\"Move all these pages about Kubernetes into a new section called HomeLab-K8s\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"Move all these pages about Kubernetes into a new section called HomeLab-K8s\"",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — and it would just do it.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — and it would just do it.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80cc-8ee0-e0e435c55d36",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The only problem? No MCP server existed for Microsoft OneNote on personal accounts.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The only problem? No MCP server existed for Microsoft OneNote on personal accounts.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80ef-9d4c-fe57f8b6070f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8059-b3ee-e9d47aee18cb",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Building the OneNote MCP Server",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Building the OneNote MCP Server",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80f1-b7a8-d67855ff7664",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "I built ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "I built ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "onenote-mcp-server",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "onenote-mcp-server",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " using Python and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " using Python and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "FastMCP",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "FastMCP",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", a lightweight framework that handles the MCP protocol boilerplate so you can focus on writing the actual tools.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", a lightweight framework that handles the MCP protocol boilerplate so you can focus on writing the actual tools.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8051-b76d-cc2e629dab84",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The server connects to OneNote through the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The server connects to OneNote through the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "Microsoft Graph API",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Microsoft Graph API",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — Microsoft's unified REST API for accessing Office 365 data — and uses ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — Microsoft's unified REST API for accessing Office 365 data — and uses ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "MSAL (Microsoft Authentication Library)",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "MSAL (Microsoft Authentication Library)",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " for OAuth 2.0 authentication. On first run, a browser window opens for you to sign in with your Microsoft account. After that, the token is cached locally, so subsequent runs are seamless.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " for OAuth 2.0 authentication. On first run, a browser window opens for you to sign in with your Microsoft account. After that, the token is cached locally, so subsequent runs are seamless.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80d9-80d4-edc6c32faa01",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:23:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Here's what the architecture looks like:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Here's what the architecture looks like:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8036-b6b6-ea9ff870369b",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:23:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fig.1: High-Level Architecture",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fig.1: High-Level Architecture",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://ik.imagekit.io/f9grhllxb/img1-high-level-architecture.png"
+      }
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80c3-999c-c70469a1fe8e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:20:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\nEverything runs locally on your machine. Your OneNote data never passes through any third-party server — it goes directly from Microsoft's cloud to your local MCP server and into Claude's context.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\nEverything runs locally on your machine. Your OneNote data never passes through any third-party server — it goes directly from Microsoft's cloud to your local MCP server and into Claude's context.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80d2-a58f-efb424d45970",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The server exposes eight tools:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The server exposes eight tools:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-801c-bd10-c7d87f5ad7df",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": true,
+    "in_trash": false,
+    "type": "table",
+    "table": {
+      "table_width": 2,
+      "has_column_header": true,
+      "has_row_header": false
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80bb-b31d-c335180d4e61",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8032-8527-cc49752cffa9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Wall: Microsoft's 501 Error",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Wall: Microsoft's 501 Error",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80ce-bf28-f47020b79b60",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Here's where it gets interesting — and where I hit a wall that Microsoft apparently doesn't want you to hit.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Here's where it gets interesting — and where I hit a wall that Microsoft apparently doesn't want you to hit.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80cd-b554-c8ee06028028",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Microsoft's Graph API includes an endpoint called ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Microsoft's Graph API includes an endpoint called ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "copyToSection",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "copyToSection",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". The official documentation says you can use it to copy a OneNote page from one section to another. Clean, simple, exactly what I needed.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". The official documentation says you can use it to copy a OneNote page from one section to another. Clean, simple, exactly what I needed.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80ed-9b30-d6559d5e4d4d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Except it returns a ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Except it returns a ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "501 Not Implemented",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "501 Not Implemented",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " error on personal Microsoft accounts (Outlook.com, Hotmail, Live.com).",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " error on personal Microsoft accounts (Outlook.com, Hotmail, Live.com).",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80de-85ac-d371a0eb8710",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Not a permissions error. Not a rate limit. A 501 — meaning Microsoft has simply not implemented this feature for personal accounts. It works on organizational accounts (Office 365 / work accounts), but if you use OneNote with a personal email address, you're out of luck.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Not a permissions error. Not a rate limit. A 501 — meaning Microsoft has simply not implemented this feature for personal accounts. It works on organizational accounts (Office 365 / work accounts), but if you use OneNote with a personal email address, you're out of luck.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8096-8907-d79ade3f4e75",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This was frustrating, but it was also a puzzle worth solving.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This was frustrating, but it was also a puzzle worth solving.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80d3-946f-e40961a2b715",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8010-93ae-c5038c44754c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Workaround: Read, Then Recreate",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Workaround: Read, Then Recreate",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8000-a58a-c1696231fe69",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The insight was simple: if I can't ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The insight was simple: if I can't ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "copy",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "copy",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " a page, I can ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " a page, I can ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "rebuild",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "rebuild",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " it.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " it.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80da-928e-f3056404d586",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "OneNote pages are stored as HTML internally. The Graph API lets you fetch a page's raw HTML content with a GET request. And it lets you create a new page in any section by POSTing that same HTML.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "OneNote pages are stored as HTML internally. The Graph API lets you fetch a page's raw HTML content with a GET request. And it lets you create a new page in any section by POSTing that same HTML.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-801c-aaad-d1b3c7338d3a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "So the workaround is:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "So the workaround is:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80a5-88dc-ee4eca5d2e6a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Read the source page's HTML via ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Read the source page's HTML via ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "GET /me/onenote/pages/{id}/content",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "GET /me/onenote/pages/{id}/content",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8071-a326-dd02b85b1493",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "numbered_list_item",
+    "numbered_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Post that HTML to the target section via ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Post that HTML to the target section via ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "POST /me/onenote/sections/{id}/pages",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "POST /me/onenote/sections/{id}/pages",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80aa-99e9-cfcf3ad1310f",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The result is functionally identical to a copy — same title, same content, same formatting. Microsoft just never needs to know it was a \"copy.\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The result is functionally identical to a copy — same title, same content, same formatting. Microsoft just never needs to know it was a \"copy.\"",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-801c-b1f3-d7356e02310c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Here's what that flow looks like:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Here's what that flow looks like:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8011-a870-fd6e4c8856f9",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:25:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "image",
+    "image": {
+      "caption": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Fig: 2 Sequence Diagram representing the workaround Solution for the 501 error",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Fig: 2 Sequence Diagram representing the workaround Solution for the 501 error",
+          "href": null
+        }
+      ],
+      "type": "external",
+      "external": {
+        "url": "https://ik.imagekit.io/f9grhllxb/img2-workaround-sequence-diagram.png"
+      }
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8050-bdad-f76af535c8ea",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "This became the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "This became the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "onenote_clone_page",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "onenote_clone_page",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " tool in the server. It's the heart of the whole system — without it, reorganizing pages at scale would have been impossible on personal accounts.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " tool in the server. It's the heart of the whole system — without it, reorganizing pages at scale would have been impossible on personal accounts.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80b8-bb82-c70bb6ea20ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80bc-88e1-c00c292de071",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The Result: 200+ Pages Reorganized by AI",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The Result: 200+ Pages Reorganized by AI",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80a6-ba96-f66c05808c16",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "With the MCP server running and connected to Claude Desktop, I could finally describe my reorganization goals in plain English:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "With the MCP server running and connected to Claude Desktop, I could finally describe my reorganization goals in plain English:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80a6-9769-f4e6fe85968c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:26:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "\"I have a section called 'Tech_PATs' with 15 pages. Can you move all the Azure-related ones to the HomeLab-Azure section, the Docker ones to HomeLab-Docker, and anything related to my Polysilon project to the Polysilon section?\"",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": true,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\"I have a section called 'Tech_PATs' with 15 pages. Can you move all the Azure-related ones to the HomeLab-Azure section, the Docker ones to HomeLab-Docker, and anything related to my Polysilon project to the Polysilon section?\"",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8026-92f0-ef7bba6aad1a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Claude would list the pages, read each one to understand its content, and clone them to the right destination — one by one, handling each in sequence. What would have taken me an entire afternoon took about 20 minutes of back-and-forth conversation.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Claude would list the pages, read each one to understand its content, and clone them to the right destination — one by one, handling each in sequence. What would have taken me an entire afternoon took about 20 minutes of back-and-forth conversation.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8003-a152-ffabfa86339a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The final structure: 5 organized section groups (HomeLab, Projects-and-Apps, Dev-Tools, Personal, Reference), 39 sections, and 200+ pages — all where they belong.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The final structure: 5 organized section groups (HomeLab, Projects-and-Apps, Dev-Tools, Personal, Reference), 39 sections, and 200+ pages — all where they belong.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80ce-9b6b-c5407e3705be",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8063-bc61-deef4be6ad02",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "How to Try It Yourself",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "How to Try It Yourself",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8075-a892-e2848a2c612d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The server is open source and free to use. Here's what you need:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The server is open source and free to use. Here's what you need:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-804d-8839-c48c97c36d68",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Prerequisites:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Prerequisites:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80a5-9fd4-cf0aee0e66ab",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Python 3.8+",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Python 3.8+",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80e6-944c-c4bd00c71c95",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A Microsoft account (personal or organizational)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A Microsoft account (personal or organizational)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8049-994d-f442c93e3289",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "An Azure App Registration (free — takes about 5 minutes)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "An Azure App Registration (free — takes about 5 minutes)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8079-af51-dccda50ab750",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Claude Desktop, Cursor, or any MCP-compatible client",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Claude Desktop, Cursor, or any MCP-compatible client",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-808b-abf2-c70c9013af79",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Setup:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Setup:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80e6-a02b-d39438f52ca2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "git clone https://github.com/jisujit/onenote-mcp-server\ncd onenote-mcp-server\npip install -r requirements.txt\ncp .env.example .env\n# Add your CLIENT_ID and TENANT_ID to .env",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "git clone https://github.com/jisujit/onenote-mcp-server\ncd onenote-mcp-server\npip install -r requirements.txt\ncp .env.example .env\n# Add your CLIENT_ID and TENANT_ID to .env",
+          "href": null
+        }
+      ],
+      "language": "bash"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-801f-961a-c184db91489a",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Claude Desktop config",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Claude Desktop config",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " (",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " (",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "claude_desktop_config.json",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "claude_desktop_config.json",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "):",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "):",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80c5-a88a-fe55cd71a8d7",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "code",
+    "code": {
+      "caption": [],
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "{\n  \"mcpServers\": {\n    \"onenote\": {\n      \"command\": \"python\",\n      \"args\": [\"/path/to/onenote-mcp-server/src/server.py\"],\n      \"env\": {\n        \"CLIENT_ID\": \"your-azure-client-id\",\n        \"TENANT_ID\": \"common\"\n      }\n    }\n  }\n}",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "{\n  \"mcpServers\": {\n    \"onenote\": {\n      \"command\": \"python\",\n      \"args\": [\"/path/to/onenote-mcp-server/src/server.py\"],\n      \"env\": {\n        \"CLIENT_ID\": \"your-azure-client-id\",\n        \"TENANT_ID\": \"common\"\n      }\n    }\n  }\n}",
+          "href": null
+        }
+      ],
+      "language": "json"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-803e-993b-f2c747cce0f8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "quote",
+    "quote": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Note for personal Microsoft accounts:",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Note for personal Microsoft accounts:",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Use ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Use ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "TENANT_ID=common",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "TENANT_ID=common",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". Do not use your tenant ID — personal accounts aren't tied to a tenant.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". Do not use your tenant ID — personal accounts aren't tied to a tenant.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80a4-aa49-d3718ea41f51",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "The full setup guide, including the Azure App Registration steps, is in the ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "The full setup guide, including the Azure App Registration steps, is in the ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "GitHub README",
+            "link": {
+              "url": "https://github.com/jisujit/onenote-mcp-server"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GitHub README",
+          "href": "https://github.com/jisujit/onenote-mcp-server"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80d2-ac07-df261a8df913",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8066-afde-d0a79bab15ac",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What I Learned",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What I Learned",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8047-aab8-fe23261aca2d",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Building for the real world means building around limitations.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Building for the real world means building around limitations.",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Microsoft's API docs don't prominently warn you about the 501 on personal accounts. You find out when your code fails in production. The lesson: always test with the actual account type your users will have, not just your dev/organizational account.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Microsoft's API docs don't prominently warn you about the 501 on personal accounts. You find out when your code fails in production. The lesson: always test with the actual account type your users will have, not just your dev/organizational account.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-805c-b22c-d4bd981d7e10",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "FastMCP is genuinely excellent.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "FastMCP is genuinely excellent.",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Writing an MCP server from scratch would take days. FastMCP reduces it to hours. The framework handles all the protocol plumbing — you just decorate Python functions with ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Writing an MCP server from scratch would take days. FastMCP reduces it to hours. The framework handles all the protocol plumbing — you just decorate Python functions with ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "@mcp.tool()",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": true,
+            "color": "default"
+          },
+          "plain_text": "@mcp.tool()",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " and they become callable tools. It's the right level of abstraction.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " and they become callable tools. It's the right level of abstraction.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8007-a1a4-fd3a61231411",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "AI as an orchestrator changes what's possible.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "AI as an orchestrator changes what's possible.",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " The MCP server itself doesn't know which pages belong in which section — Claude does, because it can read the content and apply judgment. The combination of a structured API layer (MCP) and an AI that can reason about content is more powerful than either alone.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " The MCP server itself doesn't know which pages belong in which section — Claude does, because it can read the content and apply judgment. The combination of a structured API layer (MCP) and an AI that can reason about content is more powerful than either alone.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80f7-867d-e485844ea153",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Local-first matters.",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Local-first matters.",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " Every API call goes from your machine to Microsoft. Nothing passes through a third party. For anything touching personal notes or credentials, that's not a nice-to-have — it's a requirement.",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " Every API call goes from your machine to Microsoft. Nothing passes through a third party. For anything touching personal notes or credentials, that's not a nice-to-have — it's a requirement.",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8072-a922-ff583166ece5",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-802a-9248-cc962218ffd8",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "What's Next",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "What's Next",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8089-81b7-eff5b4da91b1",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "A few things on the roadmap:",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "A few things on the roadmap:",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-805d-b722-ec1b94935994",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Page deletion",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Page deletion",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — currently missing intentionally (destructive operations are high-risk in an AI context)",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — currently missing intentionally (destructive operations are high-risk in an AI context)",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80a8-912a-d10b4c66db03",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Search",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Search",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — full-text search across notebooks via Graph API",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — full-text search across notebooks via Graph API",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80d7-9252-cf6d6f832b72",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Page update",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Page update",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — edit existing page content in place",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — edit existing page content in place",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80ac-8573-d56383e06f29",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "bulleted_list_item",
+    "bulleted_list_item": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Multi-notebook support",
+            "link": null
+          },
+          "annotations": {
+            "bold": true,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Multi-notebook support",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": " — currently assumes one primary notebook",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": " — currently assumes one primary notebook",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-800b-9ce1-dd7b5a10dd0c",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Contributions are welcome. The repo is at ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Contributions are welcome. The repo is at ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "github.com/jisujit/onenote-mcp-server",
+            "link": {
+              "url": "https://github.com/jisujit/onenote-mcp-server"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "github.com/jisujit/onenote-mcp-server",
+          "href": "https://github.com/jisujit/onenote-mcp-server"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80e8-ba13-d9afe5aac3d2",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "divider",
+    "divider": {},
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-8010-a5bc-eb45aee379ad",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "heading_2",
+    "heading_2": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "About the Author",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "About the Author",
+          "href": null
+        }
+      ],
+      "is_toggleable": false,
+      "color": "default"
+    },
+    "archived": false
+  },
+  {
+    "object": "block",
+    "id": "32a3856f-5ba5-80e8-bb3f-cdf626a7cf9e",
+    "parent": {
+      "type": "page_id",
+      "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
+    },
+    "created_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "created_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "last_edited_by": {
+      "object": "user",
+      "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
+    },
+    "has_children": false,
+    "in_trash": false,
+    "type": "paragraph",
+    "paragraph": {
+      "rich_text": [
+        {
+          "type": "text",
+          "text": {
+            "content": "Sujit G is a software developer and builder. Find him at ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "Sujit G is a software developer and builder. Find him at ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "sujitg.com",
+            "link": {
+              "url": "https://sujitg.com/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "sujitg.com",
+          "href": "https://sujitg.com/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "LinkedIn",
+            "link": {
+              "url": "https://linkedin.com/in/sujitg/"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "LinkedIn",
+          "href": "https://linkedin.com/in/sujitg/"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ", and ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ", and ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "GitHub",
+            "link": {
+              "url": "https://github.com/jisujit"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "GitHub",
+          "href": "https://github.com/jisujit"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ". More links at ",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ". More links at ",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "linktr.ee/jisujit",
+            "link": {
+              "url": "https://linktr.ee/jisujit"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "linktr.ee/jisujit",
+          "href": "https://linktr.ee/jisujit"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": ".",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": ".",
+          "href": null
+        }
+      ],
+      "color": "default"
+    },
+    "archived": false
+  }
+]

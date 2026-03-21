@@ -36,6 +36,18 @@
     "hasContent": true
   },
   {
+    "id": "onenote-mcp-server-ai-notebook-organization",
+    "category": "AI",
+    "title": "How I Organized My Messy OneNote Notebook — using Model Context Protocol (MCP)",
+    "excerpt": "I had 200+ notes scattered across a chaotic OneNote notebook and no time to reorganize them manually. So I built an open-source MCP server to give Claude direct access to OneNote — and discovered a Microsoft API limitation that required an unconventional fix to make it work.",
+    "date": "Mar 2026",
+    "readTime": "5 min read",
+    "link": null,
+    "source": "notion",
+    "notionId": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56",
+    "hasContent": true
+  },
+  {
     "id": "devops-future-2024",
     "category": "Automation",
     "title": "The Future of DevOps Engineering: A Confluence of Infrastructure, Automation, AI, and Quantum",
