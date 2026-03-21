@@ -28,12 +28,12 @@ async function fetchNotionDatabase() {
       'Content-Type': 'application/json',
     },
     body: JSON.stringify({
+      // Must match Notion select options exactly (see database Status property).
       filter: {
         or: [
           { property: 'Status', select: { equals: 'Published' } },
-          { property: 'Status', select: { equals: 'Ready to Publish' } },
-          { property: 'Status', select: { equals: 'Ready To Publish' } }
-        ]
+          { property: 'Status', select: { equals: 'Ready To Publish' } },
+        ],
       },
       sorts: [
         { property: 'PublishedDate', direction: 'descending' }
@@ -207,7 +207,7 @@ async function main() {
   // Update status for newly published posts
   for (const page of notionData.results) {
     const status = getPropertyValue(page, 'Status', 'select');
-    if (status === 'Ready to Publish' || status === 'Ready To Publish') {
+    if (status === 'Ready To Publish') {
       console.log(`📤 Marking as published: ${getPropertyValue(page, 'Title', 'title')}`);
       await updateNotionPageStatus(page.id);
     }
