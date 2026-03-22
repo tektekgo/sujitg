@@ -3,7 +3,20 @@ import { useEffect, useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, Clock, Calendar, Linkedin, Twitter, Link2, Check } from "lucide-react";
+import { cn } from "@/lib/utils";
+import {
+  ArrowLeft,
+  Clock,
+  Calendar,
+  Linkedin,
+  Twitter,
+  Link2,
+  Check,
+  BookOpen,
+  Code2,
+  Rss,
+  type LucideIcon,
+} from "lucide-react";
 import { NotionBlockRenderer } from "@/components/NotionBlockRenderer";
 import { Footer } from "@/components/Footer";
 import blogPosts from "@/data/blogPosts.json";
@@ -21,6 +34,12 @@ interface BlogPost {
   link?: string | null;
   hasContent?: boolean;
   source: string;
+  /** Cross-post: published copies on other platforms (from Notion) */
+  mediumURL?: string | null;
+  devtoURL?: string | null;
+  substackURL?: string | null;
+  linkedinURL?: string | null;
+  twitterxURL?: string | null;
 }
 
 interface NotionBlock {
@@ -39,6 +58,101 @@ const author = {
   linkedin: "https://www.linkedin.com/in/sujitg/",
   image: headshot
 };
+
+const CROSS_POST_LINKS: {
+  key: keyof Pick<
+    BlogPost,
+    "mediumURL" | "devtoURL" | "substackURL" | "linkedinURL" | "twitterxURL"
+  >;
+  label: string;
+  Icon: LucideIcon;
+}[] = [
+  { key: "mediumURL", label: "Medium", Icon: BookOpen },
+  { key: "devtoURL", label: "Dev.to", Icon: Code2 },
+  { key: "substackURL", label: "Substack", Icon: Rss },
+  { key: "linkedinURL", label: "LinkedIn post", Icon: Linkedin },
+  { key: "twitterxURL", label: "X (Twitter)", Icon: Twitter },
+];
+
+function CrossPostLinks({ post }: { post: BlogPost }) {
+  const items = CROSS_POST_LINKS.filter(({ key }) => {
+    const url = post[key];
+    return typeof url === "string" && url.trim().length > 0;
+  }).map(({ key, label, Icon }) => ({
+    url: post[key] as string,
+    label,
+    Icon,
+  }));
+
+  if (items.length === 0) return null;
+
+  return (
+    <div className="mb-6 space-y-2">
+      <span className="text-sm font-medium text-foreground">Also published on</span>
+      <div className="flex flex-wrap gap-2">
+        {items.map(({ url, label, Icon }) => (
+          <a
+            key={label}
+            href={url}
+            target="_blank"
+            rel="noopener noreferrer"
+            title={label}
+            aria-label={`Open on ${label}`}
+            className="inline-flex h-9 w-9 items-center justify-center rounded-md border border-border bg-card text-muted-foreground shadow-sm transition-colors hover:bg-primary/10 hover:text-primary hover:border-primary/30"
+          >
+            <Icon className="h-4 w-4" aria-hidden />
+          </a>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+function ShareSection({
+  copied,
+  onShareLinkedIn,
+  onShareTwitter,
+  onCopyLink,
+  className,
+}: {
+  copied: boolean;
+  onShareLinkedIn: () => void;
+  onShareTwitter: () => void;
+  onCopyLink: () => void;
+  className?: string;
+}) {
+  return (
+    <div className={cn("flex flex-col gap-2", className)}>
+      <span className="text-sm font-medium text-foreground">Share</span>
+      <p className="text-xs text-muted-foreground -mt-1">
+        Share this page on your networks or copy the link.
+      </p>
+      <div className="flex flex-wrap items-center gap-2">
+        <Button variant="outline" size="sm" onClick={onShareLinkedIn} className="gap-2">
+          <Linkedin className="h-4 w-4" />
+          LinkedIn
+        </Button>
+        <Button variant="outline" size="sm" onClick={onShareTwitter} className="gap-2">
+          <Twitter className="h-4 w-4" />
+          X
+        </Button>
+        <Button variant="outline" size="sm" onClick={onCopyLink} className="gap-2">
+          {copied ? (
+            <>
+              <Check className="h-4 w-4 text-green-500" />
+              Copied!
+            </>
+          ) : (
+            <>
+              <Link2 className="h-4 w-4" />
+              Copy link
+            </>
+          )}
+        </Button>
+      </div>
+    </div>
+  );
+}
 
 function getAudienceForCategory(category: string): string {
   switch (category) {
@@ -97,7 +211,6 @@ export default function Article() {
 
   const handleShareLinkedIn = () => {
     const url = encodeURIComponent(window.location.href);
-    const title = encodeURIComponent(post?.title || '');
     window.open(`https://www.linkedin.com/sharing/share-offsite/?url=${url}`, '_blank');
   };
 
@@ -203,46 +316,14 @@ export default function Article() {
               </a>
             </div>
 
-            {/* Share buttons */}
-            <div className="flex items-center gap-3 mb-8 pb-8 border-b border-border">
-              <span className="text-sm text-muted-foreground">Share:</span>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleShareLinkedIn}
-                className="gap-2"
-              >
-                <Linkedin className="h-4 w-4" />
-                LinkedIn
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleShareTwitter}
-                className="gap-2"
-              >
-                <Twitter className="h-4 w-4" />
-                X
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleCopyLink}
-                className="gap-2"
-              >
-                {copied ? (
-                  <>
-                    <Check className="h-4 w-4 text-green-500" />
-                    Copied!
-                  </>
-                ) : (
-                  <>
-                    <Link2 className="h-4 w-4" />
-                    Copy Link
-                  </>
-                )}
-              </Button>
-            </div>
+            <CrossPostLinks post={post} />
+            <ShareSection
+              copied={copied}
+              onShareLinkedIn={handleShareLinkedIn}
+              onShareTwitter={handleShareTwitter}
+              onCopyLink={handleCopyLink}
+              className="mb-8 pb-8 border-b border-border"
+            />
 
             {/* Content */}
             {blocks.length > 0 ? (
@@ -254,33 +335,14 @@ export default function Article() {
               </div>
             )}
 
-            {/* Bottom share buttons */}
-            <div className="flex items-center gap-3 mt-12 pt-8 border-t border-border">
-              <span className="text-sm text-muted-foreground">Enjoyed this article? Share it:</span>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleShareLinkedIn}
-                className="gap-2"
-              >
-                <Linkedin className="h-4 w-4" />
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleShareTwitter}
-                className="gap-2"
-              >
-                <Twitter className="h-4 w-4" />
-              </Button>
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleCopyLink}
-                className="gap-2"
-              >
-                {copied ? <Check className="h-4 w-4 text-green-500" /> : <Link2 className="h-4 w-4" />}
-              </Button>
+            <div className="mt-12 pt-8 border-t border-border space-y-6">
+              <CrossPostLinks post={post} />
+              <ShareSection
+                copied={copied}
+                onShareLinkedIn={handleShareLinkedIn}
+                onShareTwitter={handleShareTwitter}
+                onCopyLink={handleCopyLink}
+              />
             </div>
           </article>
 

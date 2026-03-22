@@ -60,8 +60,19 @@ In your Notion workspace:
 | `ReadTime` | Text | e.g., "5 min read" |
 | `Status` | Select | Add: Draft, Review, Ready to Publish, Published |
 | `PublishTo` | Multi-select | Add: Medium, Site |
-| `MediumURL` | URL | (leave empty, filled by automation) |
 | `PublishedDate` | Date | (leave empty, filled by automation) |
+
+**Cross-post URLs (optional)** — Add as **URL** properties; names must match **exactly** (case-sensitive). Sync copies them into `blogPosts.json` and the article page shows icon buttons for each one set.
+
+| Property Name | Use |
+|---------------|-----|
+| `mediumURL` | Link to published Medium article |
+| `devtoURL` | Link to Dev.to post |
+| `substackURL` | Link to Substack post |
+| `linkedinURL` | Link to published LinkedIn article/post |
+| `twitterxURL` | Link to X (Twitter) post |
+
+These are separate from the main **Link** URL (single external article redirect). If you use only cross-posts, leave **Link** empty and sync full content as usual.
 
 ## Step 4: Share Database with Integration
 

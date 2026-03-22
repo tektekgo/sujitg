@@ -106,6 +106,13 @@ function formatDate(dateString) {
   return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
 }
 
+/** Notion URL property → trimmed string or null (omit empty). */
+function optionalUrl(page, propertyName) {
+  const v = getPropertyValue(page, propertyName, 'url');
+  if (!v || typeof v !== 'string' || !v.trim()) return null;
+  return v.trim();
+}
+
 function getPropertyValue(page, propertyName, type) {
   const prop = page.properties[propertyName];
   if (!prop) return null;
@@ -141,6 +148,12 @@ function notionPageToBlogPost(page) {
     date: formatDate(getPropertyValue(page, 'PublishedDate', 'date')),
     readTime: getPropertyValue(page, 'ReadTime', 'rich_text') || '5 min read',
     link: getPropertyValue(page, 'Link', 'url'),
+    // Cross-post URLs (Notion property names must match exactly)
+    mediumURL: optionalUrl(page, 'mediumURL'),
+    devtoURL: optionalUrl(page, 'devtoURL'),
+    substackURL: optionalUrl(page, 'substackURL'),
+    linkedinURL: optionalUrl(page, 'linkedinURL'),
+    twitterxURL: optionalUrl(page, 'twitterxURL'),
     source: 'notion',
     notionId: page.id
   };
