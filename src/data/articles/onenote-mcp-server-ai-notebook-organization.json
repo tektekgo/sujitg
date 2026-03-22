@@ -675,7 +675,7 @@
       "page_id": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56"
     },
     "created_time": "2026-03-21T20:07:00.000Z",
-    "last_edited_time": "2026-03-21T20:07:00.000Z",
+    "last_edited_time": "2026-03-22T00:08:00.000Z",
     "created_by": {
       "object": "user",
       "id": "6c2ae788-9d70-4a2b-9bf4-ed14611edacc"
@@ -692,7 +692,7 @@
         {
           "type": "text",
           "text": {
-            "content": "Building the OneNote MCP Server",
+            "content": "Building the OneNote MCP Server\n\n",
             "link": null
           },
           "annotations": {
@@ -703,7 +703,43 @@
             "code": false,
             "color": "default"
           },
-          "plain_text": "Building the OneNote MCP Server",
+          "plain_text": "Building the OneNote MCP Server\n\n",
+          "href": null
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "https://ik.imagekit.io/f9grhllxb/Article-OneNoteMCPServer/coverpage-onenote-mcp.png",
+            "link": {
+              "url": "https://ik.imagekit.io/f9grhllxb/Article-OneNoteMCPServer/coverpage-onenote-mcp.png"
+            }
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "https://ik.imagekit.io/f9grhllxb/Article-OneNoteMCPServer/coverpage-onenote-mcp.png",
+          "href": "https://ik.imagekit.io/f9grhllxb/Article-OneNoteMCPServer/coverpage-onenote-mcp.png"
+        },
+        {
+          "type": "text",
+          "text": {
+            "content": "\n",
+            "link": null
+          },
+          "annotations": {
+            "bold": false,
+            "italic": false,
+            "strikethrough": false,
+            "underline": false,
+            "code": false,
+            "color": "default"
+          },
+          "plain_text": "\n",
           "href": null
         }
       ],

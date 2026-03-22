@@ -1,5 +1,22 @@
 [
   {
+    "id": "onenote-mcp-server-ai-notebook-organization",
+    "category": "AI",
+    "title": "How I Organized My Messy OneNote Notebook — using Model Context Protocol (MCP)",
+    "excerpt": "I had 200+ notes scattered across a chaotic OneNote notebook and no time to reorganize them manually. So I built an open-source MCP server to give Claude direct access to OneNote — and discovered a Microsoft API limitation that required an unconventional fix to make it work.",
+    "date": "Mar 2026",
+    "readTime": "5 min read",
+    "link": null,
+    "mediumURL": "https://gsujit.medium.com/how-i-used-ai-to-organize-my-chaotic-onenote-notebook-by-building-the-tool-that-didnt-exist-7a30b434db32",
+    "devtoURL": "https://dev.to/jisujit/how-i-built-an-mcp-server-to-let-claude-organize-my-onenote-notebook-and-beat-a-501-error-4g4f",
+    "substackURL": "https://sujitg.substack.com/p/i-had-200-scattered-onenote-pages?r=2zrbmi",
+    "linkedinURL": "https://www.linkedin.com/pulse/i-built-tool-let-ai-organize-my-onenote-notebook-what-gangadharan-wsdke",
+    "twitterxURL": null,
+    "source": "notion",
+    "notionId": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56",
+    "hasContent": true
+  },
+  {
     "id": "OpenClaw on Proxmox with Tailscale",
     "category": "AI",
     "title": "🦞 How I Set Up OpenClaw Securely on Proxmox Using Tailscale (No Public Exposure)",
@@ -7,6 +24,11 @@
     "date": "Feb 2026",
     "readTime": "5 min read",
     "link": null,
+    "mediumURL": "https://gsujit.medium.com/how-i-set-up-openclaw-securely-on-proxmox-using-tailscale-no-public-exposure-6db881730932",
+    "devtoURL": null,
+    "substackURL": null,
+    "linkedinURL": null,
+    "twitterxURL": null,
     "source": "notion",
     "notionId": "2ec3856f-5ba5-80df-b029-d67a39b09ff8",
     "hasContent": true
@@ -19,6 +41,11 @@
     "date": "Jan 2026",
     "readTime": "8 min read",
     "link": null,
+    "mediumURL": null,
+    "devtoURL": null,
+    "substackURL": null,
+    "linkedinURL": null,
+    "twitterxURL": null,
     "source": "notion",
     "notionId": "2ec3856f-5ba5-80a2-a49d-e898647fab9f",
     "hasContent": true
@@ -31,20 +58,13 @@
     "date": "Jan 2026",
     "readTime": "6 min read",
     "link": null,
+    "mediumURL": null,
+    "devtoURL": null,
+    "substackURL": null,
+    "linkedinURL": null,
+    "twitterxURL": null,
     "source": "notion",
     "notionId": "2e93856f-5ba5-8006-8187-f2a9af9d8406",
-    "hasContent": true
-  },
-  {
-    "id": "onenote-mcp-server-ai-notebook-organization",
-    "category": "AI",
-    "title": "How I Organized My Messy OneNote Notebook — using Model Context Protocol (MCP)",
-    "excerpt": "I had 200+ notes scattered across a chaotic OneNote notebook and no time to reorganize them manually. So I built an open-source MCP server to give Claude direct access to OneNote — and discovered a Microsoft API limitation that required an unconventional fix to make it work.",
-    "date": "Mar 2026",
-    "readTime": "5 min read",
-    "link": null,
-    "source": "notion",
-    "notionId": "32a3856f-5ba5-80dc-8eb3-c3f550b48b56",
     "hasContent": true
   },
   {
