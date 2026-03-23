@@ -7,8 +7,32 @@ import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent } from "@/components/ui/card";
 import { extractToc, getAllGuides, getGuideBySlug } from "@/lib/guides";
-import { ArrowLeft, BookMarked, ListTree } from "lucide-react";
+import { ArrowLeft, BookMarked, Library, ListTree } from "lucide-react";
 import { cn } from "@/lib/utils";
+
+function GuideBackLinks({ className }: { className?: string }) {
+  return (
+    <nav
+      className={cn("flex flex-col gap-2 text-sm", className)}
+      aria-label="Guides section navigation"
+    >
+      <Link
+        to="/resources/guides"
+        className="inline-flex items-center gap-2 font-medium text-primary hover:underline w-fit"
+      >
+        <ArrowLeft className="h-4 w-4 shrink-0" aria-hidden />
+        All guides
+      </Link>
+      <Link
+        to="/resources"
+        className="inline-flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors w-fit"
+      >
+        <Library className="h-4 w-4 shrink-0" aria-hidden />
+        Resources home
+      </Link>
+    </nav>
+  );
+}
 
 export default function Guide() {
   const { slug } = useParams<{ slug: string }>();
@@ -70,7 +94,9 @@ export default function Guide() {
         <div className="max-w-7xl mx-auto flex flex-col lg:flex-row gap-10 lg:gap-12">
           {toc.length > 0 ? (
             <aside className="lg:w-56 shrink-0 order-2 lg:order-1">
-              <div className="lg:sticky lg:top-28 border border-border rounded-lg bg-card/40 p-4">
+              <div className="lg:sticky lg:top-28 border border-border rounded-lg bg-card/40 p-4 space-y-4">
+                <GuideBackLinks className="pb-4 border-b border-border" />
+                <div>
                 <div className="flex items-center gap-2 text-sm font-semibold text-foreground mb-3">
                   <ListTree className="h-4 w-4 text-primary" aria-hidden />
                   On this page
@@ -90,11 +116,18 @@ export default function Guide() {
                     </li>
                   ))}
                 </ul>
+                </div>
               </div>
             </aside>
           ) : null}
 
           <article className="flex-grow min-w-0 order-1 lg:order-2 max-w-3xl">
+            <GuideBackLinks
+              className={cn(
+                "mb-6",
+                toc.length > 0 ? "lg:hidden" : undefined
+              )}
+            />
             <div className="flex flex-wrap gap-2 mb-4">
               {guide.seriesLabel ? (
                 <Badge variant="secondary">{guide.seriesLabel}</Badge>
