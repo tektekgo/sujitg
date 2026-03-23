@@ -1,6 +1,17 @@
-# Addendum: Using the OneNote MCP Server with a Corporate Microsoft Account
+---
+title: "Addendum: OneNote MCP with a Corporate Microsoft Account"
+description: "Work or school accounts: tenant ID, app registration, admin consent, and what differs from the personal-account guide."
+order: 2
+series: onenote-mcp
+seriesLabel: "OneNote MCP"
+role: addendum
+relatedBlogId: "onenote-mcp-server-ai-notebook-organization"
+relatedSlugs:
+  - "onenote-mcp"
+slug: onenote-mcp-corporate-addendum
+---
 
-> **This addendum is a companion to the main setup guide.** If you have a personal Microsoft account (Outlook.com, Hotmail, Live.com), you don't need this — follow the [main guide](https://sujitg.com/guides/onenote-mcp) instead. This document only covers what's **different** for corporate or organizational accounts (work or school accounts managed by your company's IT department).
+> **This addendum is a companion to the main setup guide.** If you have a personal Microsoft account (Outlook.com, Hotmail, Live.com), you don't need this — follow the [main guide](/resources/guides/onenote-mcp) instead. This document only covers what's **different** for corporate or organizational accounts (work or school accounts managed by your company's IT department).
 
 ---
 

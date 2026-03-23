@@ -33,9 +33,15 @@ function pathToDefaultSlug(filePath: string): string {
   return rel.replace(/\\/g, "/").replace(/\//g, "-");
 }
 
+function titleFromFirstMarkdownHeading(content: string): string | null {
+  const m = /^#\s+(.+)$/m.exec(content.trim());
+  return m ? m[1].trim() : null;
+}
+
 function parseGuideFile(filePath: string, raw: string): GuideDoc | null {
   const { data, content } = matter(raw);
-  const title = typeof data.title === "string" ? data.title.trim() : "";
+  let title = typeof data.title === "string" ? data.title.trim() : "";
+  if (!title) title = titleFromFirstMarkdownHeading(content) ?? "";
   if (!title) return null;
 
   const defaultSlug = pathToDefaultSlug(filePath);

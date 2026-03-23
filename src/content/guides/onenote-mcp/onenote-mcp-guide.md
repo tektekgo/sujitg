@@ -1,6 +1,14 @@
-# How to Use the OneNote MCP Server
-### A Practical Guide: Setup, Walkthrough, and Prompt Library
-
+---
+title: "How to Use the OneNote MCP Server"
+description: "Step-by-step setup, walkthrough, and prompt ideas for the OneNote MCP server with a personal Microsoft account and Claude."
+order: 1
+series: onenote-mcp
+seriesLabel: "OneNote MCP"
+role: main
+relatedBlogId: "onenote-mcp-server-ai-notebook-organization"
+relatedSlugs:
+  - "onenote-mcp-corporate-addendum"
+slug: onenote-mcp
 ---
 
 > **Who this is for:** Anyone who uses Microsoft OneNote with a personal Microsoft account (Outlook.com, Hotmail, or Live.com) and wants to use Claude AI to organize, navigate, or work with their notebooks — without any prior developer experience required.
