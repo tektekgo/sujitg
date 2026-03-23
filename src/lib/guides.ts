@@ -1,5 +1,48 @@
-import matter from "gray-matter";
+import { parse as parseYaml } from "yaml";
 import Slugger from "github-slugger";
+
+/**
+ * Parse YAML frontmatter + markdown body without gray-matter (gray-matter uses Node's Buffer,
+ * which is not available in the browser production bundle).
+ */
+function parseFrontmatter(raw: string): { data: Record<string, unknown>; content: string } {
+  const text = raw.replace(/^\uFEFF/, "").trimStart();
+  if (!text.startsWith("---")) {
+    return { data: {}, content: raw };
+  }
+  const afterOpen = text.slice(3);
+  const firstNl = afterOpen.match(/^(\r?\n)/);
+  if (!firstNl) {
+    return { data: {}, content: raw };
+  }
+  const rest = afterOpen.slice(firstNl[1].length);
+  const lines = rest.split(/\r?\n/);
+  let closeIdx = -1;
+  for (let i = 0; i < lines.length; i++) {
+    if (lines[i].trim() === "---") {
+      closeIdx = i;
+      break;
+    }
+  }
+  if (closeIdx === -1) {
+    return { data: {}, content: raw };
+  }
+  const yamlBlock = lines.slice(0, closeIdx).join("\n");
+  const content = lines.slice(closeIdx + 1).join("\n");
+  try {
+    const parsed = parseYaml(yamlBlock);
+    const data =
+      parsed !== null &&
+      typeof parsed === "object" &&
+      !Array.isArray(parsed)
+        ? (parsed as Record<string, unknown>)
+        : {};
+    return { data, content };
+  } catch (e) {
+    console.error("[guides] YAML frontmatter parse failed:", e);
+    return { data: {}, content };
+  }
+}
 
 const guideModules = import.meta.glob("../content/guides/**/*.md", {
   query: "?raw",
@@ -39,16 +82,7 @@ function titleFromFirstMarkdownHeading(content: string): string | null {
 }
 
 function parseGuideFile(filePath: string, raw: string): GuideDoc | null {
-  let data: Record<string, unknown>;
-  let content: string;
-  try {
-    const parsed = matter(raw);
-    data = parsed.data as Record<string, unknown>;
-    content = parsed.content;
-  } catch (e) {
-    console.error(`[guides] gray-matter failed for ${filePath}:`, e);
-    return null;
-  }
+  const { data, content } = parseFrontmatter(raw);
   let title = typeof data.title === "string" ? data.title.trim() : "";
   if (!title) title = titleFromFirstMarkdownHeading(content) ?? "";
   if (!title) return null;
