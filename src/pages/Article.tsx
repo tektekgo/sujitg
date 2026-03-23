@@ -15,11 +15,13 @@ import {
   BookOpen,
   Code2,
   Rss,
+  Library,
   type LucideIcon,
 } from "lucide-react";
 import { NotionBlockRenderer } from "@/components/NotionBlockRenderer";
 import { Footer } from "@/components/Footer";
 import blogPosts from "@/data/blogPosts.json";
+import { getGuidesForBlogId } from "@/lib/guides";
 
 // Import all article content files
 const articleModules = import.meta.glob("@/data/articles/*.json", { eager: true });
@@ -178,6 +180,8 @@ export default function Article() {
     .filter((p) => p.category === post?.category && p.id !== slug)
     .slice(0, 3);
 
+  const linkedGuides = post ? getGuidesForBlogId(post.id) : [];
+
   useEffect(() => {
     if (!post) {
       setLoading(false);
@@ -324,6 +328,41 @@ export default function Article() {
               onCopyLink={handleCopyLink}
               className="mb-8 pb-8 border-b border-border"
             />
+
+            {linkedGuides.length > 0 ? (
+              <div className="mb-8 rounded-lg border border-primary/25 bg-primary/5 p-5">
+                <div className="flex items-start gap-3">
+                  <Library className="h-5 w-5 text-primary shrink-0 mt-0.5" aria-hidden />
+                  <div className="min-w-0 flex-grow">
+                    <h2 className="text-base font-semibold text-foreground mb-1">Detailed guides</h2>
+                    <p className="text-sm text-muted-foreground mb-3">
+                      In-depth, step-by-step material related to this article.
+                    </p>
+                    <ul className="space-y-2 list-none m-0 p-0">
+                      {linkedGuides.map((g) => (
+                        <li key={g.slug}>
+                          <Link
+                            to={`/resources/guides/${g.slug}`}
+                            className="text-sm font-medium text-primary hover:underline inline-flex items-center gap-2"
+                          >
+                            <BookOpen className="h-4 w-4 shrink-0" aria-hidden />
+                            <span>
+                              {g.title}
+                              {g.role ? (
+                                <span className="text-muted-foreground font-normal capitalize">
+                                  {" "}
+                                  ({g.role})
+                                </span>
+                              ) : null}
+                            </span>
+                          </Link>
+                        </li>
+                      ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            ) : null}
 
             {/* Content */}
             {blocks.length > 0 ? (
