@@ -55,7 +55,7 @@ import headshot from "@/assets/headshot.jpg";
 // Author info - could be moved to a config file
 const author = {
   name: "Sujit Gangadharan",
-  title: "Fractional CIO & Advisor for Cloud, AI & Transformation",
+  title: "CIO-level enterprise transformation leader | Structured execution at scale",
   bio: "Leading digital transformation initiatives and building high-performing technology teams across global enterprises.",
   linkedin: "https://www.linkedin.com/in/sujitg/",
   image: headshot

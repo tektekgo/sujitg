@@ -11,8 +11,11 @@ export const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           <div className="text-center md:text-left">
             <h3 className="text-2xl font-bold text-primary mb-2">Sujit Gangadharan</h3>
-            <p className="text-muted-foreground">
-              Fractional CIO & Advisor for Cloud, AI & Transformation
+            <p className="text-muted-foreground font-medium">
+              Structured Transformation | AI | Automation | DevOps
+            </p>
+            <p className="text-sm text-muted-foreground/90 mt-2 max-w-md">
+              Turning innovation into scalable, governed enterprise execution.
             </p>
           </div>
 

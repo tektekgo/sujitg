@@ -5,10 +5,9 @@ import sgLogo from "@/assets/sg-logo.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
-  { label: "How I help", href: "#expertise" },
+  { label: "Approach", href: "#approach" },
   { label: "Projects", href: "#projects" },
   { label: "Speaking", href: "#speaking" },
-  { label: "Testimonials", href: "#testimonials" },
   { label: "Blog", href: "#blog" },
   { label: "Resources", href: "/resources" },
   { label: "Let's talk", href: "#contact" },

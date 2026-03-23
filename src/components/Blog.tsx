@@ -47,7 +47,7 @@ export const Blog = () => {
             Insights & <span className="text-gradient">Articles</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Practical perspectives on AI, cloud, automation, and leadership—for technology leaders and teams driving transformation.
+            Field notes on adoption, platforms, and leadership—for operating executives who want signal, not noise.
           </p>
         </div>
 

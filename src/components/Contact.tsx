@@ -10,15 +10,16 @@ export const Contact = () => {
       <div className="container mx-auto px-6 relative z-10">
         <div className="text-center mb-16 animate-fade-in">
           <h2 className="text-4xl lg:text-5xl font-bold text-primary-foreground mb-4">
-            Let's Explore Your Transformation Roadmap
+            Let&apos;s Talk
           </h2>
           <p className="text-xl text-primary-foreground/80 max-w-3xl mx-auto mb-6">
-            A short conversation can clarify whether we're a fit. Typical next steps:
+            A focused conversation to see if there&apos;s a fit—whether you need operating leadership,
+            a governed roadmap, or a credible plan the board can stand behind.
           </p>
           <ul className="text-lg text-primary-foreground/80 max-w-2xl mx-auto list-disc list-inside text-left space-y-2 mb-8">
-            <li>Advisory and fractional leadership for cloud, AI, or DevOps</li>
-            <li>Assessments and roadmaps (readiness, security, automation)</li>
-            <li>Speaking and workshops for your event or team</li>
+            <li>Transformation and technology operating model—structure, ownership, sequencing</li>
+            <li>Assessments and roadmaps across automation, platforms, and risk</li>
+            <li>Speaking and executive briefings for your leadership team or event</li>
           </ul>
           <p className="text-sm text-primary-foreground/70 max-w-xl mx-auto">
             I respond within 1–2 business days. Your information stays confidential—I never share it.
