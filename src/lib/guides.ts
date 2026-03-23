@@ -39,7 +39,16 @@ function titleFromFirstMarkdownHeading(content: string): string | null {
 }
 
 function parseGuideFile(filePath: string, raw: string): GuideDoc | null {
-  const { data, content } = matter(raw);
+  let data: Record<string, unknown>;
+  let content: string;
+  try {
+    const parsed = matter(raw);
+    data = parsed.data as Record<string, unknown>;
+    content = parsed.content;
+  } catch (e) {
+    console.error(`[guides] gray-matter failed for ${filePath}:`, e);
+    return null;
+  }
   let title = typeof data.title === "string" ? data.title.trim() : "";
   if (!title) title = titleFromFirstMarkdownHeading(content) ?? "";
   if (!title) return null;
@@ -83,8 +92,12 @@ function parseGuideFile(filePath: string, raw: string): GuideDoc | null {
 function loadAllGuides(): GuideDoc[] {
   const list: GuideDoc[] = [];
   for (const [path, raw] of Object.entries(guideModules)) {
-    const doc = parseGuideFile(path, raw);
-    if (doc) list.push(doc);
+    try {
+      const doc = parseGuideFile(path, raw);
+      if (doc) list.push(doc);
+    } catch (e) {
+      console.error(`[guides] Failed to parse ${path}:`, e);
+    }
   }
   return list;
 }
